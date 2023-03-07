@@ -1,0 +1,130 @@
+#divide{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+
+
+}
+.filter{
+    height: 1000px;
+    width: 300px;
+    background-color:white;
+    box-shadow: 0 1px 5px #ababab;
+}
+.product{
+    height: 1200px;
+    width: 1000px;
+    background-color:white;
+    box-shadow: 0 1px 5px #ababab;
+}
+
+#items{
+    /* width: 60; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 0px 40px 0px 40px;
+    /* margin: 40px; */
+    
+    margin: auto;
+    
+}
+
+
+#main{
+    /* display: flex; */
+    justify-content: center;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* border: 1px solid #e7e7e7; */
+    border-radius: 10px;
+    /* width: 450.2px; */
+    /* height: 175px; */
+    /* background-color: green; */
+    /* position: relative; */
+    width: 220px;
+    box-shadow: 0 1px 5px #ababab;
+}
+/* #pagebox #main #left{
+    width: 179.51px;
+    
+} */
+
+
+#right{
+    padding: 10px 12px 8px 16px;
+    background-color: #ffffff;
+    /* width: 310px;
+    height: 157px; */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border:  1px solid #e7e7e7;
+    border-radius: 10px;
+  
+  }
+  #left{
+     background-color: #e7e7e7;
+     border-radius: 8px;
+     border:  1px solid #e7e7e7;
+    
+    
+  }
+ #image{
+    width: 100%;
+height: 70%;
+margin: auto;
+
+bottom: 1;
+left: 0; 
+right: 0;
+}
+  
+ 
+  #name{
+      /* width: 171.38px; */
+      height: 16px;
+      font-size: 15px;
+      color: #616161;
+      font-family:sans-serif;
+      /* border: 2px solid green; */
+      font-weight: bolder;
+  }
+  #priceBox{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      /* border: 2px solid green; */
+      /* width: 282.09px; */
+      height: 24.7px;
+      justify-content: left;
+      margin-top: 4.5px;
+  }
+  #finalprice{
+   font-size: 15px;
+   font-family:sans-serif;
+   margin: 0px 8px 0px 0px;
+   font-weight: 600;
+  }
+  #discount{
+   font-size: 14px;
+   font-family:sans-serif;
+   color: #05a143;
+   margin: 0px 7.5px 0px 0px;
+   font-weight: 600;
+  }
+  #mrp{
+   font-size: 10px;
+   font-family:sans-serif;
+   color: #616161;
+   font-weight: 600;
+   text-decoration: line-through;
+  }
+
+  #dis{
+    
+      font-size: 15px;
+     
+      /* border: 2px solid green; */
+      
+  }
+  
+
