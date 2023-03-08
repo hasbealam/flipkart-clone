@@ -8,6 +8,10 @@
     <link rel="icon" href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico">
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--image slider-->
@@ -26,22 +30,34 @@
     </section>
     <!--image slider ends-->
 
-    <!-- Best of electronics -->
-    <section id="best-of-electronics">
-        <div id="bestElectronic-container">
-            <div id="left-part">
-                <h1 id="textofElectronics">Best of</h1>
-                <h1 id="textofElectronics">Electronics</h1>
-                <button>VIEW ALL</button>
-                <img src="https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90" alt="">
-            </div>
-            <div id="right-part">
-                sdfsdv
-            </div>
-        </div>
-    </section>
-    <!-- Best of electronics -->
+    <!-- best of electronics -->
+    <div class="bestElectronic-container">
+      <div class="right-part">
+        <h1>Best of Electronics</h1>
+        <button>VIEW ALL</button>
+          <img class="right-image" src="https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90">
+      </div>
+      <div class="left-part">
+          <div class="card-product-main-container">
+              <div class="card-btn-container">
+                  <button class="card-btn" id="card-btn-left"><i class="fa-solid fa-angle-left"></i></button>
+              </div>
+              <div class="translatebodycard">
+                  <div class="leftpart-card-container" id="card-product-container">
+                  </div>
+              </div>
+              <div class="card-btn-container">
+                  <button class="card-btn" id="card-btn-right"><i class="fa-solid fa-angle-right"></i></button>
+              </div>
+              
+          </div>
+      </div>
+      
+  </div>
+    <!-- Best of electronics ends -->
+
 </body>
 <script type="module" src="script.js"></script>
+<script src="./utilities/bestOfElectronics.js"></script>
 <script src="https://kit.fontawesome.com/25bb53796d.js" crossorigin="anonymous"></script>
 </html>
