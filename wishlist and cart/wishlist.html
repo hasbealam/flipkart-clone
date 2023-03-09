@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wishlist</title>
+    <!-- <link rel="icon" href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico"/> -->
+    <link rel="stylesheet" href="wishlist_style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="navbar"></div>
+    <div class="Wcontainer">
+      <div class="left">
+          <div class="greeting">
+              <div>
+                  <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/profile-pic-male_4811a1.svg"/>
+              </div>
+              <div>
+                  <p>Hello,</p>
+                  <p class="usern">User Name</p>
+              </div>
+          </div>
+          <div class="info">
+              <div>
+                  <img class = "Oicon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDE4Ij48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04LjY5NCAtMTEpIj48ZWxsaXBzZSBjeD0iMjAuNTU3IiBjeT0iMjAiIHJ4PSIyMC41NTciIHJ5PSIyMCIvPjxwYXRoIGZpbGw9IiMyODc0RjEiIGQ9Ik05IDExdjE3LjEwOGMwIC40OTMuNDEuODkyLjkxOC44OTJoNC45M3YtNS4yNTdoLTMuMDMzbDQuOTEyLTQuNzcgNC45NzIgNC44M2gtMy4wMzVWMjloMTIuNDE3Yy41MDcgMCAuOTE4LS40LjkxOC0uODkyVjExSDl6Ii8+PC9nPjwvc3ZnPg=="/>
+                  <p class="ord">MY ORDERS</p>                    
+                  <span class="material-icons">arrow_forward_ios</span>
+              </div>
+              <hr>
+              <div>
+                  <img style="height:16px;margin-top: 1.8%;margin-left: 1%;padding-left: 15px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMSIgdmlld0JveD0iMCAwIDIyIDIxIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05LjY5NCAtMTApIj48cGF0aCBmaWxsPSIjMjg3NEYwIiBkPSJNMTQuMjc1IDIyLjcwNGMyLjI3Mi0uNDEyIDQuMzQ3LS42MTggNi4yMjUtLjYxOCAxLjg3OCAwIDMuOTUzLjIwNiA2LjIyNS42MThhNS4xNSA1LjE1IDAgMCAxIDQuMjMgNS4wNjhWMzFoLTIwLjkxdi0zLjIyOGE1LjE1IDUuMTUgMCAwIDEgNC4yMy01LjA2OHptMS4yNzQtNy43MjRjMC0yLjU4IDIuMTYzLTQuNjczIDQuODMyLTQuNjczIDIuNjY3IDAgNC44MyAyLjA5MiA0LjgzIDQuNjczIDAgMi41OC0yLjE2MyA0LjY3My00LjgzIDQuNjczLTIuNjcgMC00LjgzMy0yLjA5Mi00LjgzMy00LjY3M3oiLz48ZWxsaXBzZSBjeD0iMjAuNTU3IiBjeT0iMjAiIHJ4PSIyMC41NTciIHJ5PSIyMCIvPjwvZz48L3N2Zz4="/>
+                  <span style="font: size 18px;font: weight 500px;color:#C2C2C2;margin-left: 3%;">ACCOUNT SETTINGS</span>
+                  <p class="div2_p ">Profile Information</p>
+                  <p class="div2_p">Manage Addresses</p>
+                  <p class="div2_p">PAN Card Information</p>
+              </div>
+              <hr >
+              <div>
+                  <img style="height:16px;margin-top: 1.8%;margin-left: 1%;padding-left: 15px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMyIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIzIDIyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05LjY5NCAtOSkiPjxlbGxpcHNlIGN4PSIyMC41NTciIGN5PSIyMCIgcng9IjIwLjU1NyIgcnk9IjIwIi8+PHBhdGggZD0iTTcgNmgyOHYyOEg3eiIvPjxwYXRoIGZpbGw9IiMyODc0RjAiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTMxLjUgMjd2MS4xNjdhMi4zNCAyLjM0IDAgMCAxLTIuMzMzIDIuMzMzSDEyLjgzM2EyLjMzMyAyLjMzMyAwIDAgMS0yLjMzMy0yLjMzM1YxMS44MzNBMi4zMzMgMi4zMzMgMCAwIDEgMTIuODMzIDkuNWgxNi4zMzRhMi4zNCAyLjM0IDAgMCAxIDIuMzMzIDIuMzMzVjEzSDIxYTIuMzMzIDIuMzMzIDAgMCAwLTIuMzMzIDIuMzMzdjkuMzM0QTIuMzMzIDIuMzMzIDAgMCAwIDIxIDI3aDEwLjV6TTIxIDI0LjY2N2gxMS42Njd2LTkuMzM0SDIxdjkuMzM0em00LjY2Ny0yLjkxN2MtLjk3IDAtMS43NS0uNzgyLTEuNzUtMS43NXMuNzgtMS43NSAxLjc1LTEuNzVjLjk2OCAwIDEuNzUuNzgyIDEuNzUgMS43NXMtLjc4MiAxLjc1LTEuNzUgMS43NXoiLz48L2c+PC9zdmc+"/>
+                  <span style="font: size 18px;font: weight 500px;color:#C2C2C2;margin-left: 4%;">PAYMENTS</span>
+                  <p class="div2_p ">Gift Cards</p>
+                  <p class="div2_p">Saved UPI</p>
+                  <p class="div2_p">Saved Cards</p>
+              </div>
+              <hr>
+              <div style="margin-top:2%">
+                  <img style="height:16px;margin-top: 1.8%;margin-left: 1%;padding-left: 15px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iIzI4NzRGMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIuNzkyIDQuODAyVjMuMTg5SDMuMTl2MS42MTNoOS42MDN6TTkuNjA0IDkuNjA0VjcuOTlIMy4xODl2MS42MTNoNi40MTV6TTMuMTg5IDUuNTl2MS42MTNoOS42MDNWNS41OUgzLjE5ek0xNC40MDYgMGMuNDI1IDAgLjc5NC4xNTYgMS4xMDYuNDY5LjMxMy4zMTMuNDcuNjgxLjQ3IDEuMTA3djkuNjAzYzAgLjQyNi0uMTU3LjgtLjQ3IDEuMTI2LS4zMTIuMzI1LS42ODEuNDg3LTEuMTA2LjQ4N0gzLjE4OUwwIDE1Ljk4MlYxLjU3NUMwIDEuMTUuMTU2Ljc4Mi40NjkuNDY5QTEuNTE0IDEuNTE0IDAgMCAxIDEuNTc2IDBoMTIuODN6Ii8+PC9zdmc+"/>
+                  <span class="ord" style="font: size 18px;font: weight 500px;color:#C2C2C2;margin-left: 3%;">MY CHATS</span><span  style="font: size 16px;font: weight 500px;color:#C2C2C2;margin-left: 50%;">></span>
+              </div>
+              <hr>
+              <div>
+                  <img style="height:16px;margin-top: 1.8%;margin-left: 1%;padding-left: 15px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMyIgaGVpZ2h0PSIxOSIgdmlld0JveD0iMCAwIDIzIDE5Ij48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiMyODc0RjAiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTIwLjUgMi43NWgtOUw5LjI1LjVIMi41QTIuMjQ3IDIuMjQ3IDAgMCAwIC4yNiAyLjc1bC0uMDEgMTMuNUEyLjI1NyAyLjI1NyAwIDAgMCAyLjUgMTguNWgxOGEyLjI1NyAyLjI1NyAwIDAgMCAyLjI1LTIuMjVWNWEyLjI1NyAyLjI1NyAwIDAgMC0yLjI1LTIuMjV6bS01LjYyNSAzLjM3NWEyLjI1NyAyLjI1NyAwIDAgMSAyLjI1IDIuMjUgMi4yNTcgMi4yNTcgMCAwIDEtMi4yNSAyLjI1IDIuMjU3IDIuMjU3IDAgMCAxLTIuMjUtMi4yNSAyLjI1NyAyLjI1NyAwIDAgMSAyLjI1LTIuMjV6bTQuNSA5aC05VjE0YzAtMS40OTYgMy4wMDQtMi4yNSA0LjUtMi4yNXM0LjUuNzU0IDQuNSAyLjI1djEuMTI1eiIvPjxwYXRoIGQ9Ik0tMi00aDI3djI3SC0yeiIvPjwvZz48L3N2Zz4="/>
+                  <span style="font: size 18px;font: weight 500px;color:#C2C2C2;margin-left: 4%;">MY STUFF</span>
+                  <p class="div2_p ">My Coupons</p>
+                  <p class="div2_p">My Reviews & Ratings</p>
+                  <p class="div2_p">All Notifications</p>
+                  <p class="div2_p">My Wishlist</p>
+              </div>
+              <hr>
+          </div>
+          <div class="div1">
+              <div style="margin: 3%;font-size: 14px;font-weight: 500;padding: 5px;">Frequently Visited</div>
+              <div>
+                  <p style="font-size:10px;margin-left: 3%;padding-bottom: 10px;">Change Password&nbsp;&nbsp; Track Order&nbsp;&nbsp;   Help Center</p>
+              </div>
+          </div>
+          </div>
+          <div class="right">
+            <div class="wishHeading"></div>
+            <div class="wishProd"></div>
+          </div>
+      </div>
+    <div class="foot"></div>    
+  </body>
+</html>
+<script type="module">
+  import navbar from "./components/navbar.js";
+  import {footer,Flipkartinfo} from "./components/footer.js";
+  import {search,debounce,displayResults} from "./scripts/script.js";
+  let nbar = document.querySelector(".navbar");
+  nbar.innerHTML = navbar();
+  let searchbar = document.getElementById("searchbox");
+  let output = document.getElementById("output");
+  searchbar.oninput = function(){
+    debounce(search,1000);
+  }
+  let prod;
+  const usertoken = JSON.parse(localStorage.getItem("token"))?.token;
+  if(usertoken)
+  document.querySelector(".usern").innerText = JSON.parse(localStorage.getItem("token")).user.username;
+  let id = JSON.parse(localStorage.getItem("token"))?.user._id;
+  function wishproducts(){
+    const array = [];
+    fetch(`https://flipkart-dummy-server.herokuapp.com/wishlist/${id}`,{
+      headers : {authorization : "Bearer"+" "+usertoken}
+    }).then(function(res){
+      return res.json(); 
+      }).then(function(res){
+        console.log(res.wishlist);
+        let data = res.wishlist;
+        data.forEach((el)=>{
+          array.push(el);
+        })
+        return showWproducts(array);
+    }).catch((e)=>{
+            alert("Error : Please login first");
+        });
+  }
+  wishproducts();
+  let heading = document.querySelector(".wishHeading");
+
+  let parent = document.querySelector(".wishProd");
+  
+  function showWproducts(warr)
+  {
+    heading.innerText = `My Wishlist (${warr.length})`;
+    parent.innerHTML=null;
+    warr.forEach(element => {
+      let div = document.createElement("div");
+      div.setAttribute("class","productdiv");
+      let image = element.product.image[0];
+      let discount_price = Math.floor(((element.product.retail_price-element.product.discount_price)/element.product.retail_price)*100);
+        let rating = (Math.random()*5).toFixed(1);
+        let review = Math.ceil(Math.random()*300);
+        let name = "";
+        if(element.product.name.length > 40)
+        {
+            for(let i=0;i<40;i++)
+            {
+                name += element.product.name[i];
+            }
+            name = name+"...";
+        }
+        else
+        {
+            name = element.product.name;
+        }
+      let img = document.createElement("img");
+      img.src = image;
+      img.setAttribute("class","Pimage");
+      let details_div = document.createElement('div');
+      details_div.setAttribute("class","details_div");
+      let title = document.createElement('p');
+      title.innerText = name;
+      let price_div = document.createElement('div');
+      price_div.setAttribute("class","price_div");
+      let N_price = document.createElement('p');
+      N_price.innerText = "₹"+element.product.discount_price;
+      let O_Price = document.createElement('s');
+      O_Price.innerText = "₹"+element.product.retail_price;
+      let dis_price = document.createElement('p');
+      dis_price.innerText = discount_price + "% off";
+      price_div.append(N_price,O_Price,dis_price);
+      let feedback = document.createElement('div');
+      let rating_div = document.createElement('div');
+      let icon = document.createElement('span');
+      icon.setAttribute("class","material-icons");
+      let rating_p = document.createElement('p');
+      rating_p.innerText = rating;
+      icon.innerText = "star_border";
+      rating_div.append(rating_p,icon);
+      let review_p = document.createElement('p');
+      review_p.innerText = "("+review+")";
+      let f_assure = document.createElement('img');
+      f_assure.src = "https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png";
+      feedback.append(rating_div,review_p,f_assure);
+      details_div.append(name,feedback,price_div);
+      let del_icon = document.createElement('span');
+      del_icon.innerText = "delete";
+      del_icon.setAttribute("class","material-icons");
+      del_icon.style.color = "#878787";
+      del_icon.style.cursor= "pointer";
+      del_icon.onclick = function(){
+        removeWP(element);
+      }
+      div.append(img,details_div,del_icon);
+      parent.append(div);
+    });
+  }
+
+  function removeWP(p)
+  {
+    console.log(p._id);
+    fetch("https://flipkart-dummy-server.herokuapp.com/wishlist/"+ p._id, {
+    method: "DELETE",
+    headers: {"Content-type": "application/json; charset=UTF-8",authorization : "Bearer"+" "+usertoken}
+    }).then(res => {
+      console.log("Request complete! response:", res);
+      alert(`${p.product.name} is removed from your wishlist`);
+      return wishproducts();
+    }).catch((e)=>{
+          return alert("Error : Please login first");
+        });
+
+  }
+
+    // Footer 
+  let foot = document.querySelector('.foot');
+  foot.innerHTML = footer();
+
+  let login_btn = document.querySelector(".login");
+  let login_drop = document.querySelector(".login_dropdown");
+  login_btn.onclick = function () {};
+  let more = document.querySelector(".more");
+  let micon = document.getElementById("micon");
+  more.onmouseenter = function(){
+    micon.innerText = "arrow_drop_up";
+  }
+  more.onmouseleave = function(){
+    micon.innerText = "arrow_drop_down";
+  }
+  let checkin = document.querySelector(".login");
+  let dropdown = document.querySelector(".login_dropdown");
+  console.log(dropdown);
+  if(localStorage.getItem("token"))
+  {
+    checkin.innerText = JSON.parse(localStorage.getItem("token")).user.username;
+    checkin.style.color= "white";
+    let logindiv = document.querySelector(".login_div");
+    logindiv.style.backgroundColor = "inherit";
+    dropdown.innerHTML += `<li><span class="material-icons">power_settings_new</span>Logout</li>`;
+  document.querySelector('.login_dropdown').removeChild(document.querySelector('.login_dropdown').getElementsByTagName('li')[0]);
+    dropdown.lastChild.addEventListener("click",()=>{logout()});
+  }
+  function logout(){
+  console.log("you logoutted");
+  localStorage.removeItem("token");
+  window.location.href = "index.html";
+}
+</script>
