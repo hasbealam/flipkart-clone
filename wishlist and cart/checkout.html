@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+  <script src="https://kit.fontawesome.com/673d24dcfe.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="checkout.css" />
+  <link rel="stylesheet" href="checkout1.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <div id="flipkart-logo" onclick="toindex()">
+      <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="" />
+      <a href="">Explore <span>Plus</span>
+        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png" alt=""
+          width="10px" />
+      </a>
+    </div>
+  </nav>
+  <div id="cart">
+    <div id="leftcart">
+
+      <div id="leftcart1">
+        <div id="leftcart11" class="top" > <span class="no">1</span>LOGIN<i class="fa-solid fa-check" id="tick"></i></div>
+        <div>
+        </div>
+        <!-- <div class="no">1</div> -->
+        <div id="leftcart14">
+          <p>USER</p>
+          <p>MOBILE NUMBER</p>
+          <!-- <input id="leftcart12" type="number"></input> -->
+          <button id="leftcart13" onclick="c1()">Continue</button>
+        </div>
+        <div>
+        </div>
+      </div>
+<span></span>
+      <div id="leftcart2">
+        <!-- <div class="no">2</div> -->
+        <div id="leftcart21" class="top"> <span class="no">2</span>DELIVERY ADDRESS<i class="fa-solid fa-check" id="tick"></i></div>
+        <form >
+          <div id="leftcart22">
+            <input id="i1" type="text" placeholder="Name" required = "">
+            <input id="i2" type="Number" placeholder="10-digit mobile number" required = "">
+            <input id="i3" type="number" placeholder="Pincode" required = "">
+            <input id="i4" type="text" placeholder="Locality" required = "">
+            <textarea id="i5" placeholder=" Address (Area and Street)" required = ""></textarea>
+            <input id="i6" type="text" placeholder="City/District/Town" required = " ">
+            <input id="i7" type="text" placeholder="State" required = " ">
+            <input id="i8" type="Text" placeholder="Landmark (Optional)" >
+            <input id="i9" type="number" placeholder="Alternate Phone (Optional)">
+            <!-- <input type="submit" class="cont"  value="Continue"/> -->
+            <div class="bottom" id="b1">
+              <button type="submit" onclick="c2()">Continue</button>
+            </div>
+          </div>
+          
+        </form>
+      </div>
+
+      <!-- <div id="leftcart3">
+        <div id="leftcart31" class="top">ORDER SUMMERY<i class="fa-solid fa-check" id="tick"></i></div>
+        <div id="leftcart32"></div>
+        <div class="bottom" id="b2">
+          <button onclick="c3()">Continue</button>
+        </div>
+      </div> -->
+
+      <div id="leftcart4">
+        <!-- <div class="no">3</div> -->
+        <div id="leftcart41" class="top"> <span class="no">3</span>PAYMENT OPTIONS<i class="fa-solid fa-check" id="tick"></i></div>
+        <!-- <div id="leftcart42">
+          <input class="p1" type="number" placeholder="Card Number" required = " ">
+          <input class="p2" type="date" placeholder="Expiry Date" required = " ">
+          <input class="p3" type="number" placeholder="CVV" required = " ">
+        </div> -->
+        <div class="cont1">
+        <div class="radio-group">
+          <!-- <label class="radio" onclick="displayBlock('pay1')">
+              <input type="radio" value="sbi" name="options" id="click1" onclick="sbi()"> &nbsp;&nbsp; <img src="https://img1a.flixcart.com/www/linchpin/fk-cp-pay/sbi-7804ae3e.svg" alt=""> &nbsp;&nbsp; State Bank of India Net Banking <span></span>
+              <input class="p1" type="number" placeholder="Card Number" required = " ">
+              <input class="p2" type="date" placeholder="Expiry Date" required = " ">
+              <input class="p3" type="number" placeholder="CVV" required = " ">
+          </label> -->
+          <div class="pay" id="pay1"><button class="pay_btn" onclick="onClick()">PAY ₹ <div class="amount">####</div></button></div>
+          <label class="radio" onclick="displayBlock('pay2')">
+              <input type="radio" value="sbi" name="options" id="click2"> &nbsp;&nbsp; <img src="https://img1a.flixcart.com/linchpin-web/batman-returns/logos/upiLogo6.gif" alt=""> &nbsp;&nbsp; UPI<span></span>
+          </label>
+          <div class="pay" id="pay2"><button class="pay_btn" onclick="onClick()">PAY ₹ <div class="amount">####</div></button></div>
+          <label class="radio" onclick="displayBlock('pay3')">
+              <input type="radio" value="sbi" name="options"  id="click3"> &nbsp;&nbsp; <img src="https://img1a.flixcart.com/www/linchpin/batman-returns/logos/Payments%20Logo%20animation_1.gif" alt=""> &nbsp;&nbsp; Wallets<span></span>
+          </label>
+          <div class="pay" id="pay3"><button class="pay_btn" onclick="onClick()">PAY ₹ <div class="amount">####</div></button></div>
+          <label class="radio" onclick="displayBlock('pay4')">
+              <input type="radio" value="sbi" name="options"  id="click4"> &nbsp;&nbsp; Credit / Debit / ATM Card<span></span>
+          </label>
+          <div class="pay" id="pay4"><button class="pay_btn" onclick="onClick()">PAY ₹ <div class="amount">####</div></button></div>
+          <label class="radio" onclick="displayBlock('pay5')">
+              <input type="radio" value="sbi" name="options" id="click5"> &nbsp;&nbsp; Net Banking<span></span>
+          </label>
+          <div class="pay" id="pay5"><button class="pay_btn" onclick="onClick()">PAY ₹ <div class="amount">####</div></button></div>
+          <label class="radio" id="cod" onclick="displayBlock('pay6')">
+              <input type="radio" value="sbi" name="options"> &nbsp;&nbsp; <div>Cash on Delivery <p class="supercoin"><img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/super-coin_bac003.svg" alt="">&nbsp; Get ₹100 off by using 100 Supercoins with Kotak 811 Debit and slice card.</p></div> <span></span>
+          </label>
+          <div class="pay" id="pay6"><button class="co_btn" onclick="onClickCo()">CONFIRM ORDER</button></div>
+          <label class="radio" id="disable">
+              <input type="radio" value="sbi" name="options" disabled> &nbsp;&nbsp; <div id="emi">EMI (Easy Installments) <p class="na">Not applicable ?</p></div> <span></span>
+          </label>
+      </div>
+    </div>
+        <!-- <div class="bottom" id="b3">
+          <button onclick="c4()">Pay Now</button>
+        </div> -->
+
+      </div>
+
+    </div>
+    <div id="rightcart">
+      <div id="rightcart1">PRICE DETAILS</div>
+
+      <div id="rightcart2">
+        <div>Price</div>
+        <div id="a1"></div>
+      </div>
+      <div id="rightcart4">
+        <div>Delivery Charges</div>
+        <div id="a3" style="color: rgb(14, 138, 14); font-size: 16px">
+          Free
+        </div>
+      </div>
+      <div id="rightcart5">
+        <div>Total Payable</div>
+        <div id="a4"></div>
+      </div>
+      <div id="rightcart6">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="checkout.js"></script>

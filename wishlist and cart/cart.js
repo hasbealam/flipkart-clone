@@ -153,7 +153,7 @@ function plusinp() {
 
 function tocheckout() {
   localStorage.setItem("price", JSON.stringify(a4));
-  window.location.href = "./.CHECKOUT/.checkout.html";
+  window.location.href = "checkout.html";
 }
 var d = document.querySelector("#flipkart-logo");
 d.addEventListener("click", function () {
