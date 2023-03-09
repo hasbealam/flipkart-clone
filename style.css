@@ -147,9 +147,9 @@ body {
   margin: 0;
 }
 .leftpart-card-container {
-  height: 75%;
+  /* height: 75%; */
   display: flex;
-  transition: 1s;
+  transition: 0.5s;
   /* overflow: hidden; */
 }
 
@@ -165,9 +165,9 @@ body {
 .productImageContainer{
     height: 180px;
 }
-.card-product img {
+.productImageContainer img {
   margin-top: 10px;
-  width: 250px;
+  width: 200px;
   min-height: 130px;
 }
 /* image hover */
@@ -185,6 +185,7 @@ body {
 .card-product-price {
   margin: 10px 0;
   color: #388e3c;
+  font-weight: 600;
 }
 .card-product-desc {
   margin: 5px 0;
@@ -222,3 +223,18 @@ body {
 
 
 /* *****************best of electronics ends***************** */
+
+/* bottom text */
+#stories{
+  width: 99%;
+  margin: auto;
+  top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  color: rgb(126, 117, 117);
+}
+
+
+/* bottom text ends */
+

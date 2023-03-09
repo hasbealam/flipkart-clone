@@ -84,7 +84,7 @@ const elelctronicsProducts = [
   
   
   cardBtnRightEl.addEventListener("click", function(){
-      cardProductContainer.style.transform = "translatex(-50%)"
+      cardProductContainer.style.transform = "translatex(-100%)"
       cardBtnRightEl.style.display = "none"
       cardBtnLeftEl.style.display = "block"
   })
