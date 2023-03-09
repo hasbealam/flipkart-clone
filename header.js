@@ -29,3 +29,40 @@ function showdata() {
 }
 
 showdata();
+const loginButton = document.querySelector('.lgin');
+
+function updateLoginButtonText() {
+  const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+  if (loggedInUser) {
+    loginButton.textContent = loggedInUser.name;
+    document.querySelector('.login_menu_top').style.display = 'none'; 
+    document.querySelector(".logout").style.display='block';
+    document.querySelector(".login_menu").style.height="360px";
+  }
+}
+
+updateLoginButtonText();
+
+window.addEventListener('storage', function(event) {
+  if (event.key === 'loggedInUser') {
+    updateLoginButtonText();
+  }
+});
+
+document.querySelector(".lgin").addEventListener("click" , loginfun);
+function loginfun(){
+  window.location.href="login.html"
+}
+document.querySelector(".sgin").addEventListener("click" , signinfun);
+function signinfun(){
+  window.location.href="singup.html"
+}
+document.querySelector("logout").addEventListener("click" , logoutfunc);
+function logoutfunc(){
+  loginButton.textContent="Login"
+  document.querySelector('.login_menu_top').style.display = 'flex'; 
+    document.querySelector(".logout").style.display='none';
+    document.querySelector(".login_menu").style.height="325px";
+    localStorage.removeItem('loggedInUser');
+    window.location.href="header.html";
+}

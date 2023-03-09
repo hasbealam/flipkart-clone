@@ -63,10 +63,9 @@
     color: #dbdbdb;
     margin-left: 15px;
     margin-top: 16px;
-    font: size 1.2em;rem;
+    /* font: size 1.2em;rem; */
      line-height: 140%; 
 }
-
 .loginimg{
     display: flex;
     width: 90%;
@@ -83,15 +82,16 @@
     margin-top: 60%;
     font-weight: 900;
 }
-.input-items label  {
- position: absolute;
- top: 9%;
- left: 48.6%;
- color: #878787;
- transform-origin: left;
- transition: transform 0.2s ease;
-}
-#number:focus ~ label {
- transform: translateY(-130%) scale(0.8);
-}
+#number-label {
+    position: absolute; 
+    top: 9%;
+    left: 48.6%;
+   color: #878787;
+   transform-origin: left;
+   transition: transform 0.2s ease;
+  }
+  #number:focus + #number-label,
+  #number:valid + #number-label {
+   transform: translateY(-130%) scale(0.8);
+  }
   

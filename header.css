@@ -128,10 +128,13 @@ box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2),5px 5px 5px rgba(0, 0, 0,0. 2);
     text-decoration: none;
     font-weight: 550;
 }
+.logout{
+   display: none;
+}
 .login_menu{
     position: absolute;
     top:34px;
-    height: 320px;
+    height: 375px;
     width: 100%;
     width: 230px;
     background-color: transparent;
