@@ -94,4 +94,51 @@
   #number:valid + #number-label {
    transform: translateY(-130%) scale(0.8);
   }
-  
+ #heading-1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #212121;
+    font-size: 14px;
+    word-spacing: 2px;
+ }
+ #otp-required{
+    display: flex;
+    width: 20%;
+    margin: auto;
+    border:none;
+    border-bottom:4px solid rgb(228, 228, 228);
+    outline:none;
+    background:none;
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 3.5px;
+ }
+
+ #otp-required:focus{
+    border-bottom:6px  dashed #2874f0 ;
+}
+ .button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ #verify-btn{
+    width:80%;
+    height: 40px;
+    margin: auto;
+    background-color:#2874f0;
+    color: white;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+ }
+ .pp{
+    margin-top: 10px;
+    text-align: center;
+ }
+ 

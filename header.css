@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: Roboto,Arial,sans-serif;
     margin: 0;
 }
 a{
@@ -134,7 +135,7 @@ box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2),5px 5px 5px rgba(0, 0, 0,0. 2);
 .login_menu{
     position: absolute;
     top:34px;
-    height: 375px;
+    height: 325px;
     width: 100%;
     width: 230px;
     background-color: transparent;
@@ -360,91 +361,4 @@ width: 100%;
     display: inline-block; 
     box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 15px;
   }
- /* chat gpt */
-
  
-
-  /* CSS for devices with screen width <= 768px */
-@media (max-width: 768px) {
-    header {
-      height: 60px;
-    }
-  
-    .logo {
-      width: 80px;
-      top: 4px;
-    }
-  
-    .explore {
-      width: 70px;
-      top: -3px;
-    }
-  
-    .explore p {
-      font-size: 12px;
-    }
-  
-    .search {
-      max-width: 600px;
-      min-width: 250px;
-      margin: 0px 20px;
-    }
-  
-    .recent_Search {
-      height: 300px;
-    }
-  }
-  
-  /* CSS for devices with screen width <= 480px */
-  @media screen and (max-width: 768px) {
-    .explore{
-    display: none;
-    }
-    .search{
-    max-width: 600px;
-    margin: 0px 20px;
-    }
-    }
-    
-    @media screen and (max-width: 576px) {
-    header{
-    height: auto;
-    }
-    .logo{
-    width: 80px;
-    margin: 10px;
-    }
-    .search{
-    margin: 10px;
-    }
-    .recent_Search{
-    top: 90px;
-    height: 300px;
-    }
-    }
-    
-    @media screen and (max-width: 414px) {
-    .search{
-    max-width: 300px;
-    }
-    }
-    
-    @media screen and (max-width: 375px) {
-    .loginBtn_container{
-    display: none;
-    }
-    }
-    @media (max-width: 600px) {
-        .search {
-          max-width: 400px;
-          margin: 0 auto;
-        }
-      
-        .recent_Search {
-          max-width: 400px;
-          margin: 0 auto;
-          left: 0;
-          right: 0;
-        }
-      }
-      

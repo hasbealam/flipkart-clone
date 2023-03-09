@@ -49,7 +49,7 @@ window.addEventListener('storage', function(event) {
   }
 });
 
-document.querySelector(".lgin").addEventListener("click" , loginfun);
+ document.querySelector(".lgin").addEventListener("click" , loginfun);
 function loginfun(){
   window.location.href="login.html"
 }
@@ -57,12 +57,14 @@ document.querySelector(".sgin").addEventListener("click" , signinfun);
 function signinfun(){
   window.location.href="singup.html"
 }
-document.querySelector("logout").addEventListener("click" , logoutfunc);
+document.querySelector(".lgout").addEventListener("click" , logoutfunc);
 function logoutfunc(){
   loginButton.textContent="Login"
   document.querySelector('.login_menu_top').style.display = 'flex'; 
     document.querySelector(".logout").style.display='none';
     document.querySelector(".login_menu").style.height="325px";
     localStorage.removeItem('loggedInUser');
-    window.location.href="header.html";
+    window.location.href="header.html"
 }
+
+ 
