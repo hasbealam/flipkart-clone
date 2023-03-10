@@ -60,13 +60,13 @@ filterMoreThanEqual50Btn.addEventListener("click", async function () {
               img1: elem.image1,
               img2:elem.image2,
               img3:elem.image3,
-              name: elem.name,
-              dicri:elem.discription,
+              brand: elem.name,
+              productName:elem.discription,
               price: elem. finalPrice,
-              off:elem.discount,
-              ogprice: elem.mrp,
-              rat:elem.rating,
-              review:elem.review,
+              percentOff:elem.discount,
+              strippedOffPrice: elem.mrp,
+              stars:elem.rating,
+              reviews:elem.review,
           }
           
           // boatcart.push(temp)
