@@ -1,64 +1,5 @@
-
-import { imageSlider } from "./utilities/slider.js";
-
-
-/*******************image Slider********************* */
-let imageSliderListEl = document.querySelector(".imageSliderList");
-let imageSliderListHTML = "";
-
-imageSlider.forEach((el) => {
-  imageSliderListHTML += `
-    <div class="imageSliderItem">
-        <a href="${el.link}">
-            <img src="${el.img}" />
-        </a>
-    </div>
-    `;
-});
-imageSliderListEl.innerHTML = imageSliderListHTML;
-
-let preve_imageBtnEl = document.getElementById("preve_imageBtn");
-let next_imageBtn = document.getElementById("next_imageBtn");
-let start = 0;
-let end = -400;
-
-preve_imageBtnEl.addEventListener("click", handlePreveImage);
-next_imageBtn.addEventListener("click", handleNextImage);
-
-function handlePreveImage() {
-  let imageallList = document.querySelectorAll(".imageSliderItem");
-  if (start < 0) start += 100;
-  imageallList.forEach((el) => {
-    el.style.transform = `translateX(${start}%)`;
-  });
-}
-function handleNextImage() {
-  let imageallList = document.querySelectorAll(".imageSliderItem");
-  if (start > end) start -= 100;
-  imageallList.forEach((el) => {
-    el.style.transform = `translateX(${start}%)`;
-  });
-}
-
-function renderImageSlider() {
-  if (start > end) {
-    handleNextImage();
-  } else {
-    start = 100;
-  }
-}
-
-setInterval(renderImageSlider, 2000);
-
-/*******************image Slider ends********************* */
-
-
-
-
-// head.js
-
-import logindiv from "./flipkart-clone-navlog/flipkart-clone-navlog/loginpage.js";
-import signuppage from "./flipkart-clone-navlog/flipkart-clone-navlog/signuppage.js";
+import logindiv from "./loginpage.js";
+import signuppage from "./signuppage.js";
 let showlogin  = document.getElementById("show-login");
 showlogin.innerHTML=logindiv();
 let showsignup = document.getElementById("show-signup");
@@ -133,7 +74,7 @@ function logoutfunc(){
     document.querySelector(".logout").style.display='none';
     document.querySelector(".login_menu").style.height="325px";
     localStorage.removeItem('loggedInUser');
-    window.location.href="index.html"
+    window.location.href="header.html"
 }
 
 const requestOTPBtn = document.getElementById("otp");
@@ -222,4 +163,3 @@ function existuser(){
   document.getElementById("logincontainer").style.display='flex';
   document.getElementById("signincontainer").style.display='none';
 }
-

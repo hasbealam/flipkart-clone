@@ -1,0 +1,219 @@
+body{
+  font-family: Roboto,Arial,sans-serif;
+}
+#signincontainer {
+  position: fixed;
+    top: 51%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+      display: none; 
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+}
+
+.left-side-div {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width: 250px;
+	height: 500px;
+	background-color: #2874f0;
+}
+
+.right-side-div {
+  background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	width: 400px;
+	height: 500px;
+}
+
+.button-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#name,#email,#numbers {
+	margin-top: 30px;
+}
+
+.item {
+	position: relative;
+}
+#numbers,#name,#email {
+    /* margin-top: 70px; */
+    margin-left: 50px;
+    color:black;
+    border:none;
+    border-bottom:1px solid rgb(228, 228, 228);
+    outline:none;
+    background:none;
+    transition: 0.5s;
+    margin-bottom:20px; 
+    width: 80%;
+}
+#numbers:focus{
+    border-bottom:2px solid #2874f0;
+}
+#number-labels {
+    position: absolute; 
+    top: 40%;
+    left: 12%;
+   color: #878787;
+   transform-origin: left;
+   transition: transform 0.2s ease;
+  }
+  #numbers:focus + #number-labels,
+  #numbers:valid + #number-labels{
+   transform: translateY(-130%) scale(0.8);
+  }
+  #email-label{
+    position: absolute; 
+    top: 40%;
+    left: 12%;
+   color: #878787;
+   transform-origin: left;
+   transition: transform 0.2s ease;
+  }
+  #email:focus + #email-label,
+  #email:valid + #email-label {
+   transform: translateY(-130%) scale(0.8);
+  }
+  #name-label {
+    position: absolute; 
+    top: 40%;
+    left: 12%;
+    color: #878787;
+    transform-origin: left;
+    transition: transform 0.2s ease;
+  }
+    #name:focus + #name-label,
+    #name:valid + #name-label{
+    transform: translateY(-130%) scale(0.8);
+  }
+  
+  
+.right-side-div p {
+font-size: 12px;
+width: 65%;
+margin: auto;
+margin: 20px 50px;
+letter-spacing: 1;
+color: rgb(132, 128, 128);
+}
+
+.left-side-div h1 {
+color: #fff;
+font-weight: 300;
+margin-left: 15px;
+margin-top: 30px;
+}
+
+.left-side-div p {
+color: #dbdbdb;
+margin-left: 15px;
+margin-top: 16px;
+line-height: 140%;
+}
+
+.right-side-div a {
+color: #2874f0;
+text-decoration: none;
+}
+
+/* .new-account {
+display: flex;
+justify-content: center;
+margin-top: 60%;
+font-weight: 900;
+} */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.item label {
+position: absolute;
+top: 0;
+left: 50px;
+color: #878787;
+transform-origin: left;
+transition: transform 0.2s ease;
+}
+.loginimg {
+display: flex;
+width: 90%;
+margin: auto;
+margin-top: 110px;
+}
+    .right-side-div p {
+    font-size: 12px;
+    width: 65%;
+    margin: auto;
+    margin: 20px 50px;
+    letter-spacing: 1;
+    color: rgb(132, 128, 128);
+    }
+    
+    .left-side-div h1 {
+    color: #fff;
+    font-weight: 300;
+    /* margin-left: 15px;
+     */
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 28px;
+    }
+    .left-side-div p {
+        width: 80%;
+    margin: auto;
+    color: #dbdbdb;
+    /* margin-left: 15px; */
+    margin-top: 16px;
+    line-height: 140%;
+    
+    }
+    .loginimgs {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 110px;
+    }
+    
+    .right-side-div a {
+    color: #2874f0;
+    text-decoration: none;
+    }
+    .new-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 60%;
+    font-weight: 900;
+    }
+    #otpget{
+        width:80%;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+    }
+    #existing{
+        width:80%;
+        height: 50px;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        color:#2874f0;
+        border: none;
+        font-weight: 550;
+        cursor: pointer;
+        margin-top: 18px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    #name,#email,#numbers {
+        position: relative;
+      }
+      
+     
+     
