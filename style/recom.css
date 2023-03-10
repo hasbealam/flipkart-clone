@@ -1,0 +1,66 @@
+.left-partreco {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  #card-btn-rightreco{
+    margin-left: -36px;
+}
+
+#upper-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: 1px solid rgb(218, 210, 210);
+    font-family: "Roboto", sans-serif;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#upper-part button{
+    
+    background-color: #2874f0;
+    color: white;
+    cursor: pointer;
+    padding: 9px 18px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 2px;
+
+}
+
+#upper-part-left h1{
+    font-size: 30px;
+}
+
+#upper-part-left p{
+    color: rgb(104, 96, 96);;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.rating{
+    margin: 10px 0;
+}
+.rating span{
+   color: green;
+   font-weight: 600;
+}
+.rating span{
+    padding: 10px;
+    background-color: white;
+}
+.card-product-prices{
+font-weight: 600;
+}
+.card-product-prices .cross{
+    padding: 7px;
+    text-decoration: line-through;
+    color: rgb(112, 109, 109);
+}
+.card-product-prices .off{
+    color: green;
+}
