@@ -18,5 +18,13 @@ export const imageSlider = [
     {
         img : "https://rukminim1.flixcart.com/flap/1688/280/image/75a15c3e19c3f7de.jpg?q=50",
         link : "https://www.flipkart.com/furniture-india-ka-furniture-store?otracker=hp_bannerads_5_2.bannerAdCard.BANNERADS_Furniture%2BBestsellers_ASPFJEKJRE57"
+    },
+    {
+        img : "https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/9f40f4bff3e44a23.jpg?q=50",
+        link : "https://www.flipkart.com/furniture-india-ka-furniture-store?otracker=hp_bannerads_5_2.bannerAdCard.BANNERADS_Furniture%2BBestsellers_ASPFJEKJRE57"
+    },
+    {
+        img : "https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/45d17bb504317bf3.jpg?q=50",
+        link : "https://www.flipkart.com/furniture-india-ka-furniture-store?otracker=hp_bannerads_5_2.bannerAdCard.BANNERADS_Furniture%2BBestsellers_ASPFJEKJRE57"
     }
 ]
