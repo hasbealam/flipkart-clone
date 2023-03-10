@@ -1,4 +1,6 @@
+
 import { imageSlider } from "./utilities/slider.js";
+
 
 /*******************image Slider********************* */
 let imageSliderListEl = document.querySelector(".imageSliderList");
@@ -46,7 +48,7 @@ function renderImageSlider() {
   }
 }
 
-setInterval(renderImageSlider, 1000);
+setInterval(renderImageSlider, 2000);
 
 /*******************image Slider ends********************* */
 
