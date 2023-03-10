@@ -1,24 +1,37 @@
-let images = [
-  "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/n/i/h/s-r-stbrg-stoneberg-original-imaggjymvpnxz6re.jpeg?q=70",
-  "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/m/u/q/s-r-stbrg-stoneberg-original-imaggjymfu4bszvv.jpeg?q=70",
-  "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/a/c/9/s-r-stbrg-stoneberg-original-imaggjymbsghkx6k.jpeg?q=70",
-  "https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/n/i/h/s-r-stbrg-stoneberg-original-imaggjymvpnxz6re.jpeg?q=70",
-];
+let product = JSON.parse(localStorage.getItem("pro-data"));
 let hiddenOffers = true;
-displayProductData();
-function displayProductData() {
-  let sideImages = document.querySelectorAll("#side_images div");
-  for (let i = 0; i < sideImages.length; i++) {
-    let image = document.createElement("img");
-    image.src = images[i];
-    sideImages[i].append(image);
-  }
+displayProductData(product);
+function displayProductData(product) {
+  let number_of_ratings = () => {
+    return Math.ceil(Math.random() * (999 - 100) + 100);
+  };
+  document.querySelector("#image1").src = product.img1;
+  document.querySelector("#image2").src = product.img2;
+  document.querySelector("#image3").src = product.img3;
+
   let productImage = document.querySelector("#product_image");
   let image = document.createElement("img");
-  image.src = images[3];
+  image.src = product.img1;
   productImage.append(image);
+
+  document.querySelector("#brand_name").innerText = product.name;
+  document.querySelector("#product_name").innerText = product.dicri;
+  document.querySelector("#discount_percentage").innerText = `${product.off} %`;
+  document.querySelector("#discounted_price").innerText = product.price;
+  document.querySelector("#original_price").innerText = product.ogprice;
+  document.querySelector("#rating_in_points").innerText = product.rat;
+  document.querySelector(
+    "#number_of_reviews"
+  ).innerText = `${number_of_ratings()} ratings and ${product.review} reviews `;
+
+ document.querySelector(".color_image > img").src = product.img1;
+
+
+
+
 }
 
+// hiddenOffer
 document.querySelector("#hidden_offer").addEventListener("click", function () {
   if (hiddenOffers) {
     document.querySelector("#hidden_offers").style.display = "block";
