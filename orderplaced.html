@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(40,116,240);
+            font-family:Roboto,Arial,sans-serif
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            padding-top: 80px;
+        }
+        h1{
+            color: #ffffff;
+            padding-left: 660px;
+            padding-top: 20px;
+            /* font-size: larger; */
+            font-weight: bolder;
+        }
+        p{
+            color: #ffffff;
+            padding-left: 646px;
+            padding-top: 10px;
+            font-size: large;
+            font-weight: 700;
+        }
+        .tick-icon {
+            position: relative;
+            }
+        .tick-icon::after {
+            --size: 4.5rem;
+            content: '\2713';
+            /* position: absolute; */
+            top: 100px;
+            left: 450px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: rgb(42,152,42);
+            font-size: var(--size);
+            --dimension: calc(1.5 * var(--size));
+            width: var(--dimension);
+            height: var(--dimension);
+            color: #ffffff;
+            }
+        button{
+            background-color: rgb(251,100,27);
+            color: #ffffff;
+            border: none;
+            padding: 15px;
+            margin-left: 715px;
+            margin-top: 52px;
+            font-size: medium;
+            /* padding-top: 20px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="tick-icon"></div>
+    <h1>Order Confirmed</h1>
+    <p>Thank you so much for your order</p>
+    <button onclick="cont()">Continue Shopping</button>
+</body>
+</html>
+<script>
+    function cont(){
+        window.location.href = "index.html";
+    }
+</script>

@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,Arial,sans-serif;
+}
+body{
+    cursor: pointer;
+}
+
+#box1 {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 180px;
+    border-bottom: 2px solid rgb(212, 201, 201);
+}
+#box11 {
+    width: 25%;
+    padding: 10px;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#box11 > img {
+    width: 75%;
+    max-height: 155px;
+    margin-left: 17%;
+    margin-bottom: 5px;
+    border: 1px solid rgb(221, 208, 208);
+}
+#box12 {
+    width: 74%;
+    padding: 10px;
+    margin: 1%;
+}
+#cartline1 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+#cartline1 > div {
+    margin-right: 20px;
+}
+#cartline {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#cartline > div {
+    color: gray;
+    font-size: 15px;
+}
+#productName {
+    font-size: 15px;
+    font-weight: 510;
+    text-transform: uppercase;
+    line-height: 1;
+}
+#price {
+    font-size: 20px;
+    font-weight: 520;
+}
+#price2 {
+    font-size: 16px;
+    color: gray;
+    text-decoration: line-through;
+}
+#price3 {
+    color: green;
+    font-size: 15px;
+    font-weight: 520;
+}
+#flipass {
+    width: 110px;
+    margin-top: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+#cart {
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    background-color: #f1f3f6;
+}
+#leftcart {
+    flex: 7;
+    height: 96%;
+    margin: 1%;
+    padding: 20px;
+    padding-top: 0%;
+}
+/* #leftcart>div{
+box-shadow: rgba(26, 28, 29, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+} */
+#rightcart {
+    flex: 3;
+    height: 45%;
+    margin: 1%;
+    padding: 10px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+#rightcart1 {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid rgb(212, 205, 205);
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#rightcart2,
+#rightcart3,
+#rightcart4,
+#rightcart5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+#rightcart4 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(219, 208, 208);
+}
+#rightcart5 {
+    font-size: 16px;
+    font-weight: 550;
+    border-bottom: 2px solid rgb(214, 206, 206);
+    padding-bottom: 20px;
+
+}
+#rightcart6 {
+    font-size: 16px;
+    /* font-weight: bold; */
+    padding-bottom: 10px;
+    padding-left: 15px;
+    color: green;
+}
+#leftcart1{
+    width: 100%;
+}
+#leftcart>div{
+    margin-top: 20px;
+}
+
+#leftcart12{
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border: 2px solid rgb(206, 191, 191);
+    margin: 25px;
+    /* margin-left: 10px; */
+}
+#leftcart13{
+    margin-top: 10px;
+    background-color: #fb641b;
+    width: 220px;
+    height: 48px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500px;
+    transition: box-shadow .2s ease;
+}
+#leftcart14{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#leftcart15{
+    width: 96%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: x-large;
+    padding: 2%;
+}
+#leftcart16{
+    color: black;
+    font-size: x-large;
+}
+#leftcart2{
+    width: 100%;
+}
+#leftcart22{
+    display: grid;
+    grid-template-areas: "a b"
+                        "c d"
+                        "e e"
+                        "f g"
+                        "h i";
+    padding: 40px;
+    row-gap: 25px;
+    column-gap: 70px;
+}
+#leftcart22>input{
+    height: 30px;
+    border: 1px solid rgb(199, 189, 189);
+    padding-left: 10px;
+}
+#leftcart22>textarea{
+    height: 50px;
+    border: 1px solid rgb(199, 189, 189);
+}
+#i1{
+    grid-area: a;
+
+}
+#i2{
+    grid-area: b;
+}
+#i3{
+    grid-area: c;
+}
+#i4{
+    grid-area: d;
+}
+#i5{
+    grid-area: e;
+}
+#i6{
+    grid-area: f;
+}
+#i7{
+    grid-area: g;
+}
+#i8{
+    grid-area: h;
+}
+#i9{
+    grid-area: i;
+}
+#leftcart42{
+    width: 60%;
+    display: grid;
+    grid-template-areas: "a a"
+                        "b c";
+    row-gap: 20px;
+    column-gap: 35px;
+    padding: 40px;
+    margin: auto;
+}
+#leftcart42>input{
+    height: 30px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.p1{
+    grid-area: a;
+}
+.p2{
+    grid-area: b;
+}
+.p3{
+    grid-area: c;
+}
+.top{
+    width: 96%;
+    height: 20px;
+    background-color: #047bd5;
+    display: flex;
+    align-items: center;
+    color: rgb(251, 253, 254);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 2%;
+}
+#changetop{
+    width: 96%;
+    height: 20px;
+    background-color: white;
+    /* border: 2px solid rgb(218, 206, 206); */
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 16px;
+    padding: 2%;
+}
+.bottom{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bottom>button{
+    background-color: #fb641b;
+    width: 160px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    margin-right: 30px;
+}
+#leftcart22{
+    display: none;
+}
+#b1{
+    display: none;
+}
+#leftcart32{
+    display: none;
+}
+#b2{
+    display: none;
+}
+#leftcart42{
+    display: none;
+}
+#b3{
+    display: none;
+}
+#tick{
+    color:#047bd5 ;
+    margin-left: 20px;
+    font-size: 23px;
+}
+#i5::placeholder{
+    font-size: 14px;
+}
+/* -------------navbar----------------- */
+
+#navbar {
+    height: 56px;
+    width: 100%;
+    background-color: #2874f0;
+    display: flex;
+    /* position: fixed; */
+}
+
+#flipkart-logo {
+    height: 100%;
+    width: 137px;
+    margin-left: 148px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+#flipkart-logo > img {
+    height: 20.11px;
+    width: 75px;
+    margin-top: 10px;
+    margin-left: 3.8rem;
+}
+#flipkart-logo > a {
+    text-align: end;
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+}
+#flipkart-logo > a {
+    color: white;
+}
+#flipkart-logo > a > span {
+    color: #ffe500;
+}
+.js01{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.js001{
+    font-size: 14px;
+    color: #212121;
+    line-height: 1.7;
+    margin-left: 100px;
+}
+.fa-truck,
+.fa-bell,
+.fa-star{
+    color: #2874f0;
+}
