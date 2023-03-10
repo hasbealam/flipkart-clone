@@ -1,8 +1,8 @@
 // Select the form fields and the button
 const nameInput = document.querySelector('#name');
 const emailInput = document.querySelector('#email');
-const numberInput = document.querySelector('#number');
-const otpButton = document.querySelector('#otp');
+const numberInput = document.querySelector('#numbers');
+const otpButton = document.querySelector('#otpget');
 
 otpButton.addEventListener('click', function () {
   
@@ -14,14 +14,8 @@ otpButton.addEventListener('click', function () {
     alert('Please Enter a Valid Phone Number ');
     return;
   }
-
-  
   const user = { name, email, number };
-
-  
   const existingUsers = JSON.parse(localStorage.getItem('users')) || [];
-
-  
   existingUsers.push(user);
 
 

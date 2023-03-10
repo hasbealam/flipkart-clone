@@ -1,7 +1,9 @@
 import logindiv from "./loginpage.js";
+import signuppage from "./signuppage.js";
 let showlogin  = document.getElementById("show-login");
 showlogin.innerHTML=logindiv();
-
+let showsignup = document.getElementById("show-signup");
+showsignup.innerHTML=signuppage();
 
 let searchvalue = document.getElementById("seach-input");
 let form = document.getElementById("search-form");
@@ -59,12 +61,11 @@ window.addEventListener('storage', function(event) {
  document.querySelector(".lgin").addEventListener("click" , loginfun);
 function loginfun(){
   document.querySelector("#logincontainer").style.display='flex';
-  // document.querySelector("#logincontainer").style.zIndex='9999';
   document.querySelector(".dropdown-content").style.display='none';
 }
 document.querySelector(".sgin").addEventListener("click" , signinfun);
 function signinfun(){
-  window.location.href="singup.html"
+  document.getElementById("signincontainer").style.display='flex';
 }
 document.querySelector(".lgout").addEventListener("click" , logoutfunc);
 function logoutfunc(){
@@ -91,7 +92,7 @@ requestOTPBtn.addEventListener("click", function() {
     rightSide.innerHTML = `
       <h3 id="heading-1">Please enter the OTP sent to<br> ${phoneNumber}. <a> Change </a></h3>
       <div class="input items">
-        <input type="text" id="otp-required" required> 
+        <input type="text" id="otp-required" required autocomplete="off"> 
       </div>
       
       <div class="button2">
@@ -119,3 +120,46 @@ requestOTPBtn.addEventListener("click", function() {
     phoneNumberInput.value = "";
   }
 });
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const numberInput = document.querySelector('#numbers');
+const otpButton = document.querySelector('#otpget');
+
+otpButton.addEventListener('click', function () {
+  
+  const name = nameInput.value;
+  const email = emailInput.value;
+  const number = numberInput.value;
+
+  if (number.length !== 10) {
+    alert('Please Enter a Valid Phone Number ');
+    return;
+  }
+  const user = { name, email, number };
+  const existingUsers = JSON.parse(localStorage.getItem('users')) || [];
+  existingUsers.push(user);
+
+
+  localStorage.setItem('users', JSON.stringify(existingUsers));
+
+  
+  alert('Signup Successful');
+  nameInput.value = '';
+  emailInput.value = '';
+  numberInput.value = '';
+  document.getElementById("logincontainer").style.display='flex';
+  document.getElementById("signincontainer").style.display='none';
+});
+document.querySelector('#existing').addEventListener("click" , clicked);
+function clicked() {
+}
+document.querySelector(".new-account").addEventListener("click", showsign);
+function showsign() {
+  document.getElementById("logincontainer").style.display='none';
+  document.getElementById("signincontainer").style.display='flex';
+}
+document.getElementById("existing").addEventListener("click" , existuser);
+function existuser(){
+  document.getElementById("logincontainer").style.display='flex';
+  document.getElementById("signincontainer").style.display='none';
+}
