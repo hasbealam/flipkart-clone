@@ -5,7 +5,7 @@ body {
 * {
   padding: 0px;
   margin: 0px;
-
+  box-sizing: border-box;
 }
 #images_and_buttons > div {
   display: block;
@@ -17,20 +17,21 @@ body {
   /* border: 2px solid black; */
   margin-right: 10px;
 }
-#whole_container {
-  background-color: white;
-  border: 2px solid black;
+#product_deatails_parent_box {
+  background-color: rgb(241, 243, 246);
   width: 95%;
   margin: auto;
-  margin-top: 20px;
+}
+#whole_container {
+  /* border: 2px solid black; */
+  background-color: white;
+  margin: 20px 0px;
   padding: 20px;
 }
 #product_details_container {
-  background-color: white;
   /* border: 2px solid black; */
-  width: 95%;
+  background-color: white;
   display: flex;
-  margin: auto;
 }
 .button_gap {
   margin-left: 8px;
@@ -118,7 +119,6 @@ body {
   line-height: 1.4;
   color: #212121;
   /* margin: -13px 0px -11px 0px; */
-
 }
 #product_name + p > span {
   color: #26a541;
@@ -392,4 +392,125 @@ body {
 }
 #suggestion_cards > div > div {
   padding: 24px;
+}
+
+/* frequently_bought_together_container */
+#frequently_bought_together_container {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+#frequently_bought_together_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  /* border: 2px solid blue; */
+}
+#fbt_products {
+  /* border: 2px solid green; */
+  display: flex;
+  width: 70%;
+}
+#fbt_products > div:nth-child(odd) {
+  /* border: 2px solid green; */
+  width: 30%;
+}
+
+#fbt_products img {
+  /* border: 2px solid green; */
+  height: 300px;
+}
+#ftd_products_images_div {
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#addButtonDiv {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 0px 20px;
+  color: #878787;
+}
+#ftd_brand_name {
+  color: #878787;
+  font-size: 14px;
+  font-weight: 550;
+}
+#ftd_product_name {
+  font-size: 14px;
+  margin: 5px 0px;
+}
+#ftd_product_pricing {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#ftd_product_pricing > p:first-child {
+  font-size: 16px;
+  font-weight: 550;
+}
+#ftd_product_pricing > p:nth-child(2) {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: #878787;
+}
+#ftd_product_pricing > p:last-child {
+  color: #388e3c;
+  font-size: 13px;
+  letter-spacing: -0.2px;
+  font-weight: 550;
+}
+
+/* fbt_price_summary */
+#fbt_price_summary_div {
+  /* border: 2px solid red; */
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#ftb_price_summary {
+  font-size: 14px;
+  font-weight: 550;
+  color: #878787;
+  padding: 32px 0 20px;
+  border-bottom: 1px dashed #878787;
+}
+
+#ftb_price_summary + div {
+  margin-top: 30px;
+}
+
+#ftb_price_summary ~ div {
+  display: flex;
+  margin-bottom: 30px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+#fbt_price_summary_div > div > div:last-child {
+  font-weight: 550;
+  border-top: 1px dashed #878787;
+  padding-top: 30px;
+}
+
+#fbt_border_line {
+  
+}
+#ftb_button {
+  border: none;
+  color: white;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(255, 159, 0);
+  border-radius: 2px;
 }
