@@ -236,6 +236,10 @@ body {
   color: rgb(126, 117, 117);
 }
 
+#stories h3, p, ul, li{
+margin: 0 20px 0 20px;
+}
+
 
 /* bottom text ends */
 
