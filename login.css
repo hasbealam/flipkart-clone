@@ -78,7 +78,12 @@ body {
     margin: auto;
     margin-top: 110px;
 }
-.right-side a{
+#signbtns{
+    color: #2874f0;
+    text-decoration: none;
+    cursor: pointer;
+}
+a{
     color: #2874f0;
     text-decoration: none;
 }

@@ -23,7 +23,7 @@ function logindiv(){
   <button id="otp" > Request OTP</button>
   </div>
   <div class="new-account">
-  <a href="singup.html"> New to Flipkart? Create an account </a>
+  <h4 id="signbtn"> New to Flipkart? Create an account </h4>
   </div>
 </div>
 </div> 
