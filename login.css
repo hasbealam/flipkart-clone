@@ -3,7 +3,7 @@ body {
 }
 #logincontainer {
     position: fixed;
-    top: 55%;
+    top: 51%;
     left: 50%;  
     transform: translate(-50%, -50%);
     display: none;
@@ -37,7 +37,6 @@ body {
     transition: 0.5s;
     margin-bottom:20px; 
     width: 80%;
-    
 }
 #number:focus{
     border-bottom:2px solid #2874f0;
@@ -91,8 +90,8 @@ body {
 }
 #number-label {
     position: absolute; 
-    top: 9%;
-    left: 48.6%;
+    top: 14%;
+    left: 46.2%;
    color: #878787;
    transform-origin: left;
    transition: transform 0.2s ease;
