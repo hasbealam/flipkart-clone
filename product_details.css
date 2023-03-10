@@ -2,6 +2,11 @@ body {
   background-color: rgb(241, 243, 246);
   font-family: Roboto, Arial, sans-serif;
 }
+* {
+  padding: 0px;
+  margin: 0px;
+
+}
 #images_and_buttons > div {
   display: block;
   position: sticky;
@@ -112,18 +117,21 @@ body {
   padding: 0;
   line-height: 1.4;
   color: #212121;
-  margin: -13px 0px -11px 0px;
+  /* margin: -13px 0px -11px 0px; */
+
 }
 #product_name + p > span {
   color: #26a541;
   font-weight: 550;
   font-size: 14px;
+  margin: 10px 0px;
+  display: block;
 }
 #pricing {
   display: flex;
   gap: 10px;
   align-items: center;
-  margin: -30px 0px -30px 0px;
+  margin-bottom: -30px;
   /* border: 2px solid black */
 }
 #pricing > p:first-child {
@@ -146,6 +154,8 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 #ratings > div:first-child {
   padding: 2px 7px;
@@ -168,7 +178,7 @@ body {
 #offers > p:first-child {
   font-size: 16px;
   font-weight: 550;
-  color: #212121;
+  margin-bottom: 15px;
 }
 .offer > img {
   margin-right: 10px;
@@ -179,7 +189,7 @@ body {
   display: flex;
   align-items: center;
   /* border: 2px solid turquoise; */
-  margin-bottom: -12px;
+  margin-bottom: 10px;
 }
 .offer > p {
   color: #212121;
@@ -268,7 +278,7 @@ body {
 .small_black {
   font-weight: 400;
   font-size: 12px;
-  margin-top: -8px;
+  margin: 5px 0px;
 }
 .small_black + p > span {
   margin-left: 0px;
@@ -316,12 +326,9 @@ body {
   gap: 30px;
   margin-top: 50px;
 }
-#grid_container > div {
-  /* border: 2px solid red; */
-}
-li {
+#my_unordered_list {
   list-style-type: disc;
-  margin-left: -25px;
+  margin: 10px 0px 10px 15px;
 }
 .blue_1 {
   padding-top: -100px;
@@ -339,9 +346,9 @@ li {
   font-weight: 550;
   cursor: pointer;
   font-size: 14px;
-  padding-top: 10px;
-  display: block;
 }
+
+/* suggestion card */
 #suggestion_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -380,9 +387,8 @@ li {
 .bold_grey {
   font-size: 18px;
   color: #878787;
-  margin-top: 4px;
+  margin-top: 8px;
   cursor: pointer;
-  margin: -20px 0px -5px 0px;
 }
 #suggestion_cards > div > div {
   padding: 24px;
