@@ -12,6 +12,14 @@ body {
   /* border: 2px solid black; */
   margin-right: 10px;
 }
+#whole_container {
+  background-color: white;
+  border: 2px solid black;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
 #product_details_container {
   background-color: white;
   /* border: 2px solid black; */
@@ -73,7 +81,8 @@ body {
   /* border: 2px solid black; */
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  margin: 10px 0px;
+  padding-bottom: 10px;
 }
 #buy_now_add_to_cart > button:first-child {
   border: none;
@@ -190,8 +199,6 @@ body {
   font-size: 14px;
 }
 
-
-
 #hidden_offers {
   display: none;
 }
@@ -249,7 +256,6 @@ body {
 .black_bold {
   color: #212121;
   font-weight: 550;
-  padding-right: 4px;
   font-size: 14px;
 }
 .green {
@@ -328,11 +334,56 @@ li {
 }
 
 #hidden_offer {
-  margin-left:  28px;
+  margin-left: 28px;
   color: #2874f0;
   font-weight: 550;
   cursor: pointer;
   font-size: 14px;
   padding-top: 10px;
   display: block;
+}
+#suggestion_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  /* border: 2px solid black; */
+}
+#suggestion_cards img {
+  width: 30%;
+  margin-right: 15px;
+}
+#suggestion_cards button {
+  margin-top: 16px;
+  color: #fff;
+  background: #2874f0;
+  border-radius: 2px;
+  border: none;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 550;
+  cursor: pointer;
+  outline: none;
+}
+#suggestion_cards > div {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+.bold_black {
+  font-size: 24px;
+  font-weight: 550;
+}
+.bold_grey {
+  font-size: 18px;
+  color: #878787;
+  margin-top: 4px;
+  cursor: pointer;
+  margin: -20px 0px -5px 0px;
+}
+#suggestion_cards > div > div {
+  padding: 24px;
 }
