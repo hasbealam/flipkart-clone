@@ -1,5 +1,12 @@
+body {
+    font-family: Roboto,Arial,sans-serif;
+}
 #logincontainer {
-    display: flex;
+    position: fixed;
+    top: 51%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -30,7 +37,6 @@
     transition: 0.5s;
     margin-bottom:20px; 
     width: 80%;
-    
 }
 #number:focus{
     border-bottom:2px solid #2874f0;
@@ -84,8 +90,8 @@
 }
 #number-label {
     position: absolute; 
-    top: 9%;
-    left: 48.6%;
+    top: 14%;
+    left: 46.2%;
    color: #878787;
    transform-origin: left;
    transition: transform 0.2s ease;

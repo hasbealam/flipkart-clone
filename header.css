@@ -1,8 +1,8 @@
-*{
+  *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+}    
 body{
     font-family: Roboto,Arial,sans-serif;
     margin: 0;
@@ -14,11 +14,19 @@ a{
     text-decoration: underline;
 }
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
     background-color: #2874f0;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+nav{
+    margin-top: 70px;
 }
 .logo{
     width: 100px;
@@ -62,6 +70,7 @@ header{
     width: 100%;
 }
 .search{
+    position: sticky;
  position: relative;
 display: flex;
 justify-content: space-between;
@@ -271,6 +280,9 @@ box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2),5px 5px 5px rgba(0, 0, 0,0. 2);
     font-weight: 550;
     color: white;
     margin-left: 20px;
+}
+#ddd{
+    margin-top: -30px;
 }
 .cart-page p {
     padding: 0px 5px;
