@@ -1,3 +1,8 @@
+import logindiv from "./loginpage.js";
+let showlogin  = document.getElementById("show-login");
+showlogin.innerHTML=logindiv();
+
+
 let searchvalue = document.getElementById("seach-input");
 let form = document.getElementById("search-form");
 let recent_Search = document.querySelector(".recent_Search");
@@ -29,6 +34,7 @@ function showdata() {
 }
 
 showdata();
+
 const loginButton = document.querySelector('.lgin');
 
 function updateLoginButtonText() {
@@ -39,7 +45,8 @@ function updateLoginButtonText() {
     document.querySelector(".logout").style.display='block';
     document.querySelector(".login_menu").style.height="360px";
   }
-}
+};
+
 
 updateLoginButtonText();
 
@@ -51,7 +58,9 @@ window.addEventListener('storage', function(event) {
 
  document.querySelector(".lgin").addEventListener("click" , loginfun);
 function loginfun(){
-  window.location.href="login.html"
+  document.querySelector("#logincontainer").style.display='flex';
+  // document.querySelector("#logincontainer").style.zIndex='9999';
+  document.querySelector(".dropdown-content").style.display='none';
 }
 document.querySelector(".sgin").addEventListener("click" , signinfun);
 function signinfun(){
@@ -67,4 +76,46 @@ function logoutfunc(){
     window.location.href="header.html"
 }
 
- 
+const requestOTPBtn = document.getElementById("otp");
+requestOTPBtn.addEventListener("click", function() {
+
+  const phoneNumberInput = document.getElementById("number");
+
+  const phoneNumber = phoneNumberInput.value;
+
+  const users = JSON.parse(localStorage.getItem('users')) || [];
+  const user = users.find(u => u.number === phoneNumber);
+  
+  if (user) {
+    const rightSide = document.querySelector('.right-side');
+    rightSide.innerHTML = `
+      <h3 id="heading-1">Please enter the OTP sent to<br> ${phoneNumber}. <a> Change </a></h3>
+      <div class="input items">
+        <input type="text" id="otp-required" required> 
+      </div>
+      
+      <div class="button2">
+        <button id="verify-btn"> Verify</button>
+      </div>
+      <p class="pp">Not received your code? <a href="#">Resend code</a></p>
+    `;
+
+    const verifyBtn = document.getElementById("verify-btn");
+    verifyBtn.addEventListener("click", function() {
+      const otpInput = document.getElementById("otp-required");
+      const otp = otpInput.value;
+      if (otp === "123456") {
+        alert( `Congratulations ${user.name}! You have successfully logged in.`);
+        localStorage.setItem('loggedInUser', JSON.stringify(user));
+        updateLoginButtonText();
+        document.querySelector("#logincontainer").style.display='none';
+      } else {
+        alert("Invalid OTP!");
+      }
+    });
+
+  } else {
+    alert("Invalid phone number. Please enter a valid phone number or create a new account.");
+    phoneNumberInput.value = "";
+  }
+});
