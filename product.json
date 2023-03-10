@@ -1,9 +1,9 @@
 {
    "clots" : [
     {
-      "image1": "s1.webp",
-      "image2": "s2.webp",
-      "image3": "s3.webp",
+      "image1": "./images/s1.webp",
+      "image2": "./images/s2.webp",
+      "image3": "./images/s3.webp",
       "name": "NITYANAND" ,
       "discription":"Men Color Sky ,  T-Shirt",
       "finalPrice": 1099,
@@ -11,12 +11,13 @@
       "mrp": 2990,
       "size":"S,M,L,XL",
       "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":1
     },
     {
-      "image1": "s4.webp",
-      "image2": "s5.webp",
-      "image3": "s6.webp",
+      "image1": "./images/s4.webp",
+      "image2": "./images/s5.webp",
+      "image3": "./images/s6.webp",
       "name": "KILLER" ,
       "discription":"Men Color Block Round Neck yellow, mix color T-Shirt",
       "finalPrice": 399,
@@ -24,12 +25,13 @@
       "mrp": 800,
       "size":"S,M,L,XL",
       "rating": 3.8,
-      "review": 298
+      "review": 298,
+      "id":2
     },
     {
-      "image1": "s7.webp",
-      "image2": "s8.webp",
-      "image3": "s9.webp",
+      "image1": "./images/s7.webp",
+      "image2": "./images/s8.webp",
+      "image3": "./images/s9.webp",
       "name": "FTX" ,
       "discription":"Men Color Block Round Neck White, Black T-Shirt",
       "finalPrice": 899,
@@ -37,12 +39,13 @@
       "mrp": 1990,
       "size":"S,M,L,XL",
       "rating": 2.8,
-      "review": 198
+      "review": 198,
+      "id":3
     },
     {
-      "image1": "s10.webp",
-      "image2": "s11.webp",
-      "image3": "s12.webp",
+      "image1": "./images/s10.webp",
+      "image2": "./images/s11.webp",
+      "image3": "./images/s12.webp",
       "name": "Try This" ,
       "discription":"Men Color Green,  T-Shirt",
       "finalPrice": 1099,
@@ -50,12 +53,13 @@
       "mrp": 2990,
       "size":"S,M,L,XL",
       "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":4
     },
     {
-      "image1": "s13.webp",
-      "image2": "s14.webp",
-      "image3": "s15.webp",
+      "image1": "./images/s13.webp",
+      "image2": "./images/s14.webp",
+      "image3": "./images/s15.webp",
       "name": "FARBOT" ,
       "discription":"Men Color Green-Black Round , Green T-Shirt",
       "finalPrice": 2099,
@@ -63,12 +67,13 @@
       "mrp": 4000,
       "size":"S,M,L,XL",
       "rating": 4.2,
-      "review": 128
+      "review": 128,
+      "id":5
       },
       {
-        "image1": "s16.webp",
-        "image2": "s18.webp",
-        "image3": "s19.webp",
+        "image1": "./images/s16.webp",
+        "image2": "./images/s18.webp",
+        "image3": "./images/s19.webp",
         "name": "NITYANAND" ,
         "discription":"Embroidered, Embellished Bollywood Organza Saree  (Blue)",
         "finalPrice": 599,
@@ -76,12 +81,13 @@
         "mrp": 1300,
         "size":"S,M,L,XL",
         "rating": 4.1,
-      "review": 98
+      "review": 98,
+      "id":6
       },
      {
-      "image1": "s20.webp",
-      "image2": "21.webp",
-      "image3": "s22.webp",
+      "image1": "./images/s20.webp",
+      "image2": "./images/21.webp",
+      "image3": "./images/s22.webp",
       "name": "NB NICKY BOY" ,
       "discription":"Printed, Self Design, Floral Print Mysore Silk Blend Saree  (Red)",
       "finalPrice": 799,
@@ -89,12 +95,13 @@
       "mrp": 1700,
       "size":"S,M,L,XL",
       "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":7
             },
         {
-          "image1": "s23.webp",
-          "image2": "s24.webp",
-          "image3": "s25.webp",
+          "image1": "./images/s23.webp",
+          "image2": "./images/s24.webp",
+          "image3": "./images/s25.webp",
           "name": "NITYANAND" ,
           "discription":"Printed, Self Design, Floral Print Mysore Silk Blend Saree  (Red)",
           "finalPrice": 1099,
@@ -102,12 +109,13 @@
           "mrp": 2990,
           "size":"S,M,L,XL",
           "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":8
      },
      {
-      "image1": "s26.webp",
-      "image2": "s27.webp",
-      "image3": "s28.webp",
+      "image1": "./images/s26.webp",
+      "image2": "./images/s27.webp",
+      "image3": "./images/s28.webp",
       "name": "NB NICKY BOY" ,
       "discription":"Casual Puff Sleeves Solid Women Black Top",
       "finalPrice": 4000,
@@ -115,12 +123,13 @@
       "mrp": 2000,
       "size":"S,M,L,XL",
       "rating": 3.8,
-      "review": 128
+      "review": 128,
+      "id":9
     },
     {
-      "image1": "s29.webp",
-      "image2": "s30.webp",
-      "image3": "s31.webp",
+      "image1": "./images/s29.webp",
+      "image2": "./images/s30.webp",
+      "image3": "./images/s31.webp",
       "name": "NITYANAND" ,
       "discription":"Casual Regular Sleeves Solid Women Black Top",
       "finalPrice": 1099,
@@ -128,12 +137,13 @@
       "mrp": 2990,
       "size":"S,M,L,XL",
       "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":10
     },
     {
-      "image1": "s32.webp",
-      "image2": "s33.webp",
-      "image3": "s34.webp",
+      "image1": "./images/s32.webp",
+      "image2": "./images/s33.webp",
+      "image3": "./images/s34.webp",
       "name": "HELMONT" ,
       "discription":"Casual Regular Sleeves Embroidered Women Blue Top",
       "finalPrice": 309,
@@ -141,12 +151,13 @@
       "mrp": 420,
       "size":"S,M,L,XL",
       "rating": 3.8,
-      "review": 1698
+      "review": 1698,
+      "id":11
     },
     {
-      "image1": "s35.webp",
-      "image2": "s36.webp",
-      "image3": "s37.webp",
+      "image1": "./images/s35.webp",
+      "image2": "./images/s36.webp",
+      "image3": "./images/s37.webp",
       "name": "NITYANAND" ,
       "discription":"Men Slim Mid Rise Black Jeans",
       "finalPrice": 1099,
@@ -154,12 +165,13 @@
       "mrp": 2990,
       "size":"S,M,L,XL",
       "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":12
     },
     {
-      "image1": "s38.webp",
-      "image2": "s39.webp",
-      "image3": "s40.webp",
+      "image1": "./images/s38.webp",
+      "image2": "./images/s39.webp",
+      "image3": "./images/s40.webp",
       "name": "NITYANAND" ,
       "discription":"Women Printed Pure Cotton Anarkali Kurta  (Black)",
       "finalPrice": 309,
@@ -167,12 +179,13 @@
       "mrp": 420,
       "size":"S,M,L,XL",
       "rating": 3.8,
-      "review": 1698
+      "review": 1698,
+      "id":13
       },
       {
-        "image1": "s41.webp",
-      "image2": "s42.webp",
-      "image3": "s43.webp",
+        "image1": "./images/s41.webp",
+      "image2": "./images/s42.webp",
+      "image3": "./images/s43.webp",
         "name": "Triptee" ,
         "discription":"Misaina Ankle Length Ethnic Wear Legging  (Black, Solid)",
         "finalPrice": 1099,
@@ -180,12 +193,13 @@
         "mrp": 2990,
         "size":"S,M,L,XL",
         "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":14
       },
      {
-      "image1": "s44.webp",
-      "image2": "s45.webp",
-      "image3": "s46.webp",
+      "image1": "./images/s44.webp",
+      "image2": "./images/s45.webp",
+      "image3": "./images/s46.webp",
       "name": "Triptee" ,
       "discription":"Misaina Ankle Length Ethnic Wear Legging  (red)",
       "finalPrice": 309,
@@ -193,131 +207,143 @@
       "mrp": 420,
       "size":"S,M,L,XL",
       "rating": 3.8,
-      "review": 1698
+      "review": 1698,
+      "id":15
             }
   ],
   "Electric": [
     {
-      "image1": "e1.webp",
-      "image2": "e2.webp",
-      "image3": "e3.webp",
-      "name": "REDMI 10 Power (Sporty Orange, 128 GB)  (8 GB RAM)" ,
+      "image1": "./images/e1.webp",
+      "image2": "./images/e2.webp",
+      "image3": "./images/e3.webp",
+      "discription": "REDMI 10 Power (Sporty Orange, 128 GB)  (8 GB RAM)" ,
       "finalPrice": 12234,
       "discount": 35,
       "mrp": 18999,
       "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":1
     },
     {
-      "image1": "e4.webp",
-      "image2": "e5.webp",
-      "image3": "e6.webp",
-      "name": "realme C30 (Bamboo Green, 32 GB)  (3 GB RAM)" ,
+      "image1": "./images/e4.webp",
+      "image2": "./images/e5.webp",
+      "image3": "./images/e6.webp",
+      "discription": "realme C30 (Bamboo Green, 32 GB)  (3 GB RAM)" ,
       "finalPrice": 6999,
       "discount": 24,
       "mrp": 9990,
       "rating": 3.8,
-      "review": 298
+      "review": 298,
+      "id":2
     },
     {
-      "image1": "e7.webp",
-      "image2": "e8.webp",
-      "image3": "e9.webp",
-      "name": "Apple iPhone SE (White, 256 GB) (Includes EarPods, Power Adapter)" ,
+      "image1": "./images/e7.webp",
+      "image2": "./images/e8.webp",
+      "image3": "./images/e9.webp",
+      "discription": "Apple iPhone SE (White, 256 GB) (Includes EarPods, Power Adapter)" ,
       "finalPrice": 483,
       "discount": 62,
       "mrp": 1299,
       "rating": 2.8,
-      "review": 198
+      "review": 198,
+      "id":3
     },
     {
-      "image1": "e10.webp",
-      "image2": "e11.webp",
-      "image3": "e12.webp",
-      "name": "Voltas 1.5 Ton 3 Star Split Inverter AC - White  (183V Vectra Pride(4503445), Copper Condenser)",
+      "image1": "./images/e10.webp",
+      "image2": "./images/e11.webp",
+      "image3": "./images/e12.webp",
+      "discription": "Voltas 1.5 Ton 3 Star Split Inverter AC - White  (183V Vectra Pride(4503445), Copper Condenser)",
       "finalPrice": 30499,
       "discount": 46,
       "mrp": 62000,
       "rating": 4.1,
-      "review": 129
+      "review": 129,
+      "id":4
     },
     {
-      "image1": "e13.webp",
-      "image2": "e14.webp",
-      "image3": "e15.webp",
-      "name": "Lenovo IdeaPad Gaming 3 Core i5 11th Gen " ,
+      "image1": "./images/e13.webp",
+      "image2": "./images/e14.webp",
+      "image3": "./images/e15.webp",
+      "discription": "Lenovo IdeaPad Gaming 3 Core i5 11th Gen " ,
       "finalPrice": 59900,
       "discount": 35,
       "mrp": 93960,
       "rating": 3.8,
-      "review": 128
+      "review": 128,
+      "id":5
     },
     {
-      "image1": "e4.webp",
-      "image2": "e5.webp",
-      "image3": "e6.webp",
-      "name": "realme C30 (Bamboo Green, 32 GB)  (3 GB RAM)" ,
+      "image1": "./images/e4.webp",
+      "image2": "./images/e5.webp",
+      "image3": "./images/e6.webp",
+      "discription": "realme C30 (Bamboo Green, 32 GB)  (3 GB RAM)" ,
       "finalPrice": 6999,
       "discount": 24,
       "mrp": 9990,
       "rating": 3.8,
-      "review": 298
+      "review": 298,
+      "id":6
     },
     {
-      "image1": "e1.webp",
-      "image2": "e2.webp",
-      "image3": "e3.webp",
-      "name": "REDMI 10 Power (Sporty Orange, 128 GB)  (8 GB RAM)" ,
+      "image1": "./images/e1.webp",
+      "image2": "./images/e2.webp",
+      "image3": "./images/e3.webp",
+      "discription": "REDMI 10 Power (Sporty Orange, 128 GB)  (8 GB RAM)" ,
       "finalPrice": 12234,
       "discount": 35,
       "mrp": 18999,
       "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":7
     },
     {
-      "image1": "e4.webp",
-      "image2": "e5.webp",
-      "image3": "e6.webp",
-      "name": "realme C30 (Bamboo Green, 32 GB)  (3 GB RAM)" ,
+      "image1": "./images/e4.webp",
+      "image2": "./images/e5.webp",
+      "image3": "./images/e6.webp",
+      "discription": "realme C30 (Bamboo Green, 32 GB)  (3 GB RAM)" ,
       "finalPrice": 6999,
       "discount": 24,
       "mrp": 9990,
       "rating": 3.8,
-      "review": 298
+      "review": 298,
+      "id":8
     },
     {
-      "image1": "e18.webp",
-      "image2": "e19.webp",
-      "image3": "e20.webp",
-      "name": "ASUS TUF Gaming F15 Core i5 10th Gen " ,
+      "image1": "./images/e18.webp",
+      "image2": "./images/e19.webp",
+      "image3": "./images/e20.webp",
+      "discription": "ASUS TUF Gaming F15 Core i5 10th Gen " ,
       "finalPrice": 50399,
       "discount": 20,
       "mrp": 80000,
       "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":9
     },
     {
-      "image1": "e22.webp",
-      "image2": "e23.webp",
-      "image3": "e24.webp",
-      "name": "Crompton Hill Briz Deco 1200 mm 3 Blade Ceiling Fan",
+      "image1": "./images/e22.webp",
+      "image2": "./images/e23.webp",
+      "image3": "./images/e24.webp",
+      "discription": "Crompton Hill Briz Deco 1200 mm 3 Blade Ceiling Fan",
       "finalPrice": 1899,
       "discount": 14,
       "mrp": 2290,
       "rating": 2.8,
-      "review": 1298
+      "review": 1298,
+      "id":10
     },
    
     {
-      "image1": "e18.webp",
-      "image2": "e19.webp",
-      "image3": "e20.webp",
-      "name": "ASUS TUF Gaming F15 Core i5 10th Gen " ,
+      "image1": "./images/e18.webp",
+      "image2": "./images/e19.webp",
+      "image3": "./images/e20.webp",
+      "discription": "ASUS TUF Gaming F15 Core i5 10th Gen " ,
       "finalPrice": 50399,
       "discount": 20,
       "mrp": 80000,
       "rating": 4.8,
-      "review": 1298
+      "review": 1298,
+      "id":11
     }
    
 ]

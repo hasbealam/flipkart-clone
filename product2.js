@@ -1,11 +1,12 @@
 
+        
 //filtering
 let filterLessThan50Btn = document.getElementById("filter-less-than-50");
 let filterMoreThanEqual50Btn = document.getElementById("filter-more-than-equal-50");
 filterLessThan50Btn.addEventListener("click", async function () {
   let arr = [];
   try {
-    let data = await fetch(' http://localhost:3000/clots');
+    let data = await fetch('http://localhost:3000/Electric');
     let res = await data.json();
     console.log(res);
     for (let i = 0; i < res.length; i++) {
@@ -23,7 +24,7 @@ filterLessThan50Btn.addEventListener("click", async function () {
 filterMoreThanEqual50Btn.addEventListener("click", async function () {
   let arr = [];
   try {
-    let data = await fetch(' http://localhost:3000/clots');
+    let data = await fetch('http://localhost:3000/Electric');
     let res = await data.json();
     console.log(res);
     for (let i = 0; i < res.length; i++) {
@@ -57,16 +58,17 @@ filterMoreThanEqual50Btn.addEventListener("click", async function () {
         imgprod.addEventListener("click",function(){
           
           var temp = {
-              img1: elem.image1,
-              img2:elem.image2,
-              img3:elem.image3,
-              name: elem.name,
-              dicri:elem.discription,
-              price: elem. finalPrice,
-              off:elem.discount,
-              ogprice: elem.mrp,
-              rat:elem.rating,
-              review:elem.review,
+            img1: elem.image1,
+            img2:elem.image2,
+            img3:elem.image3,
+            name: elem.name,
+            dicri:elem.discription,
+            price: elem. finalPrice,
+            off:elem.discount,
+            ogprice: elem.mrp,
+            rat:elem.rating,
+            review:elem.review,
+      
           }
           
           boatcart.push(temp)
@@ -125,15 +127,15 @@ filterMoreThanEqual50Btn.addEventListener("click", async function () {
   let sortAtoZBtn = document.getElementById("sort-low-to-high");
   let sortZtoABtn = document.getElementById("sort-high-to-low");
   sortAtoZBtn.addEventListener("click", function () {
-    let url = 'http://localhost:3000/clots?_sort=finalPrice&_order=asc';
+    let url = 'http://localhost:3000/Electric?_sort=finalPrice&_order=asc';
     init(url);
   });
   sortZtoABtn.addEventListener("click", function () {
-    let url = `http://localhost:3000/clots?_sort=finalPrice&_order=desc`;
+    let url = 'http://localhost:3000/Electric?_sort=finalPrice&_order=desc';
     init(url);
   });
 
-  let url =' http://localhost:3000/clots';
+  let url ='http://localhost:3000/Electric';
 async function getData(url) {
   try {
     let data = await fetch(url);
@@ -157,77 +159,3 @@ async function getData(url) {
   init(url);
 
 
-
-
-
-  //header
-  let searchvalue = document.getElementById("seach-input");
-let form = document.getElementById("search-form");
-let recent_Search = document.querySelector(".recent_Search");
-
-let searchbox = ["fashion", "mobile"];
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-  searchbox.unshift(searchvalue.value);
-   
-  if (searchbox.length > 11) {
-    searchbox.pop();
-  }
-  showdata();
-  searchvalue.value = "";
-});
-
-function showdata() {
-  let recentsearchtext = "";
-  searchbox.forEach((el) => {
-    recentsearchtext += `
-      <div class="recent_search_list">
-        <i class="fa-solid fa-clock-rotate-left"></i>
-        <p>${el}</p>
-      </div>  
-    `;
-  });
-  recent_Search.innerHTML = recentsearchtext;
-}
-
-showdata();
-const loginButton = document.querySelector('.lgin');
-
-function updateLoginButtonText() {
-  const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
-  if (loggedInUser) {
-    loginButton.textContent = loggedInUser.name;
-    document.querySelector('.login_menu_top').style.display = 'none'; 
-    document.querySelector(".logout").style.display='block';
-    document.querySelector(".login_menu").style.height="360px";
-  }
-}
-
-updateLoginButtonText();
-
-window.addEventListener('storage', function(event) {
-  if (event.key === 'loggedInUser') {
-    updateLoginButtonText();
-  }
-});
-
- document.querySelector(".lgin").addEventListener("click" , loginfun);
-function loginfun(){
-  window.location.href="login.html"
-}
-document.querySelector(".sgin").addEventListener("click" , signinfun);
-function signinfun(){
-  window.location.href="singup.html"
-}
-document.querySelector(".lgout").addEventListener("click" , logoutfunc);
-function logoutfunc(){
-  loginButton.textContent="Login"
-  document.querySelector('.login_menu_top').style.display = 'flex'; 
-    document.querySelector(".logout").style.display='none';
-    document.querySelector(".login_menu").style.height="325px";
-    localStorage.removeItem('loggedInUser');
-    window.location.href="header.html"
-}
-
- 
