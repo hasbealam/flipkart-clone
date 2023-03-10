@@ -15,9 +15,9 @@
       "id":1
     },
     {
-      "image1": "./images/s4.webp",
-      "image2": "./images/s5.webp",
-      "image3": "./images/s6.webp",
+      "image1": "./images/n40.webp",
+      "image2": "./images/n41.webp",
+      "image3": "./images/n42.webp",
       "name": "KILLER" ,
       "discription":"Men Color Block Round Neck yellow, mix color T-Shirt",
       "finalPrice": 399,
@@ -29,9 +29,9 @@
       "id":2
     },
     {
-      "image1": "./images/s7.webp",
-      "image2": "./images/s8.webp",
-      "image3": "./images/s9.webp",
+      "image1": "./images/n34.webp",
+      "image2": "./images/n35.webp",
+      "image3": "./images/n36.webp",
       "name": "FTX" ,
       "discription":"Men Color Block Round Neck White, Black T-Shirt",
       "finalPrice": 899,
@@ -43,9 +43,9 @@
       "id":3
     },
     {
-      "image1": "./images/s10.webp",
-      "image2": "./images/s11.webp",
-      "image3": "./images/s12.webp",
+      "image1": "./images/n37.webp",
+      "image2": "./images/n38.webp",
+      "image3": "./images/n39.webp",
       "name": "Try This" ,
       "discription":"Men Color Green,  T-Shirt",
       "finalPrice": 1099,
@@ -71,9 +71,9 @@
       "id":5
       },
       {
-        "image1": "./images/s16.webp",
-        "image2": "./images/s18.webp",
-        "image3": "./images/s19.webp",
+        "image1": "./images/n5.webp",
+        "image2": "./images/n4.webp",
+        "image3": "./images/n6.webp",
         "name": "NITYANAND" ,
         "discription":"Embroidered, Embellished Bollywood Organza Saree  (Blue)",
         "finalPrice": 599,
@@ -85,9 +85,9 @@
       "id":6
       },
      {
-      "image1": "./images/s20.webp",
-      "image2": "./images/21.webp",
-      "image3": "./images/s22.webp",
+      "image1": "./images/n7.webp",
+      "image2": "./images/n8.webp",
+      "image3": "./images/n9.webp",
       "name": "NB NICKY BOY" ,
       "discription":"Printed, Self Design, Floral Print Mysore Silk Blend Saree  (Red)",
       "finalPrice": 799,
@@ -99,9 +99,9 @@
       "id":7
             },
         {
-          "image1": "./images/s23.webp",
-          "image2": "./images/s24.webp",
-          "image3": "./images/s25.webp",
+          "image1": "./images/n10.webp",
+          "image2": "./images/n11.webp",
+          "image3": "./images/n12.webp",
           "name": "NITYANAND" ,
           "discription":"Printed, Self Design, Floral Print Mysore Silk Blend Saree  (Red)",
           "finalPrice": 1099,
@@ -113,9 +113,9 @@
       "id":8
      },
      {
-      "image1": "./images/s26.webp",
-      "image2": "./images/s27.webp",
-      "image3": "./images/s28.webp",
+      "image1": "./images/n13.webp",
+      "image2": "./images/n14.webp",
+      "image3": "./images/n15.webp",
       "name": "NB NICKY BOY" ,
       "discription":"Casual Puff Sleeves Solid Women Black Top",
       "finalPrice": 4000,
@@ -127,9 +127,9 @@
       "id":9
     },
     {
-      "image1": "./images/s29.webp",
-      "image2": "./images/s30.webp",
-      "image3": "./images/s31.webp",
+      "image1": "./images/n16.webp",
+      "image2": "./images/n17.webp",
+      "image3": "./images/n19.webp",
       "name": "NITYANAND" ,
       "discription":"Casual Regular Sleeves Solid Women Black Top",
       "finalPrice": 1099,
@@ -141,9 +141,9 @@
       "id":10
     },
     {
-      "image1": "./images/s32.webp",
-      "image2": "./images/s33.webp",
-      "image3": "./images/s34.webp",
+      "image1": "./images/n20.webp",
+      "image2": "./images/n21.webp",
+      "image3": "./images/n22.webp",
       "name": "HELMONT" ,
       "discription":"Casual Regular Sleeves Embroidered Women Blue Top",
       "finalPrice": 309,
@@ -155,9 +155,9 @@
       "id":11
     },
     {
-      "image1": "./images/s35.webp",
-      "image2": "./images/s36.webp",
-      "image3": "./images/s37.webp",
+      "image1": "./images/n22.webp",
+      "image2": "./images/n24.webp",
+      "image3": "./images/n25.webp",
       "name": "NITYANAND" ,
       "discription":"Men Slim Mid Rise Black Jeans",
       "finalPrice": 1099,
@@ -169,9 +169,9 @@
       "id":12
     },
     {
-      "image1": "./images/s38.webp",
-      "image2": "./images/s39.webp",
-      "image3": "./images/s40.webp",
+      "image1": "./images/n27.webp",
+      "image2": "./images/n26.webp",
+      "image3": "./images/n28.webp",
       "name": "NITYANAND" ,
       "discription":"Women Printed Pure Cotton Anarkali Kurta  (Black)",
       "finalPrice": 309,
@@ -183,9 +183,9 @@
       "id":13
       },
       {
-        "image1": "./images/s41.webp",
-      "image2": "./images/s42.webp",
-      "image3": "./images/s43.webp",
+        "image1": "./images/n29.webp",
+      "image2": "./images/n30.webp",
+      "image3": "./images/n31.webp",
         "name": "Triptee" ,
         "discription":"Misaina Ankle Length Ethnic Wear Legging  (Black, Solid)",
         "finalPrice": 1099,
@@ -197,9 +197,9 @@
       "id":14
       },
      {
-      "image1": "./images/s44.webp",
-      "image2": "./images/s45.webp",
-      "image3": "./images/s46.webp",
+      "image1": "./images/n32.webp",
+      "image2": "./images/n33.webp",
+      "image3": "./images/n34.webp",
       "name": "Triptee" ,
       "discription":"Misaina Ankle Length Ethnic Wear Legging  (red)",
       "finalPrice": 309,

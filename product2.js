@@ -71,8 +71,9 @@ filterMoreThanEqual50Btn.addEventListener("click", async function () {
       
           }
           
-          boatcart.push(temp)
-          localStorage.setItem("pro-data",JSON.stringify(boatcart))
+          // boatcart.push(temp)
+          localStorage.setItem("pro-data",JSON.stringify(temp))
+          location.href="product_details.html";
         })
 
     divleft.append(divtag,imgprod)
