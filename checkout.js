@@ -1,63 +1,60 @@
-var price=JSON.parse(localStorage.getItem("price"))
-document.querySelector("#a1").textContent="₹" + " " +price
-document.querySelector("#a4").textContent="₹" + " " +price
+var price = JSON.parse(localStorage.getItem("price"));
+document.querySelector("#a1").textContent = "₹" + " " + price;
+document.querySelector("#a4").textContent = "₹" + " " + price;
 
-function c1(){
-  document.querySelector("#leftcart14").style.display="none"
-  document.querySelector("#leftcart22").style.display="grid"
-  document.querySelector("#b1").style.display="flex"
-  document.querySelector("#leftcart11").id="changetop"
-
+function c1() {
+  document.querySelector("#leftcart14").style.display = "none";
+  document.querySelector("#leftcart22").style.display = "grid";
+  document.querySelector("#b1").style.display = "flex";
+  document.querySelector("#leftcart11").id = "changetop";
 }
 
-function c2(){
+function c2() {
   // if(document.getElementById("i1").value=" "){
   //   alert("Fill the field");
   // }
-    let i1=document.getElementById("i1").value;
-    let i2=document.getElementById("i2").value;
-    let i3=document.getElementById("i3").value;
-    let i4=document.getElementById("i4").value;
-    let i5=document.getElementById("i5").value;
-    let i6=document.getElementById("i6").value;
-    let i7=document.getElementById("i7").value;
-    if(!i1 || !i2 || !i3 || !i4 || !i5 || !i6 || !i7){
-      alert("Please fill the detail properly!");
-    }
-    if(i1 && i2 && i3 && i4 && i5 && i6 && i7){
-      document.querySelector("#leftcart22").style.display="none"
-      document.querySelector("#b1").style.display="none"
-      document.querySelector("#leftcart32").style.display="grid"
-      document.querySelector("#b2").style.display="flex"
-      document.querySelector("#leftcart21").id="changetop"
-    }
-  
+  let i1 = document.getElementById("i1").value;
+  let i2 = document.getElementById("i2").value;
+  let i3 = document.getElementById("i3").value;
+  let i4 = document.getElementById("i4").value;
+  let i5 = document.getElementById("i5").value;
+  let i6 = document.getElementById("i6").value;
+  let i7 = document.getElementById("i7").value;
+  if (!i1 || !i2 || !i3 || !i4 || !i5 || !i6 || !i7) {
+    alert("Please fill the detail properly!");
+  }
+  if (i1 && i2 && i3 && i4 && i5 && i6 && i7) {
+    document.querySelector("#leftcart22").style.display = "none";
+    document.querySelector("#b1").style.display = "none";
+    document.querySelector("#leftcart32").style.display = "grid";
+    document.querySelector("#b2").style.display = "flex";
+    document.querySelector("#leftcart21").id = "changetop";
+  }
+
   // document.getElementById("i1").value
 }
 
-function c3(){
-  document.querySelector("#leftcart32").style.display="none"
-  document.querySelector("#b2").style.display="none"
-  document.querySelector("#leftcart42").style.display="grid"
-  document.querySelector("#b3").style.display="flex"
-  document.querySelector("#leftcart31").id="changetop"
+function c3() {
+  document.querySelector("#leftcart32").style.display = "none";
+  document.querySelector("#b2").style.display = "none";
+  document.querySelector("#leftcart42").style.display = "grid";
+  document.querySelector("#b3").style.display = "flex";
+  document.querySelector("#leftcart31").id = "changetop";
 }
 
-function c4(){
-  document.querySelector("#leftcart42").style.display="none"
-  document.querySelector("#b3").style.display="none"
-  document.querySelector("#leftcart41").id="changetop"
+function c4() {
+  document.querySelector("#leftcart42").style.display = "none";
+  document.querySelector("#b3").style.display = "none";
+  document.querySelector("#leftcart41").id = "changetop";
   // alert("OTP ")
   // window.location.href="otp.html"
 }
-function sbi(){
-  
-}
+function sbi() {}
 // displaydata()
 function displaydata() {
   var res = JSON.parse(localStorage.getItem("cart"));
   console.log(res);
-  
+
   res.map(function (data, hn) {
     var div = document.createElement("div");
     div.id = "box1";
@@ -90,7 +87,6 @@ function displaydata() {
     let a = +data.discountedprice;
     let b = +data.originalprice;
 
-
     let c = Math.floor(((b - a) / b) * 100);
 
     a4 = a4 + a;
@@ -112,7 +108,6 @@ function displaydata() {
     assuer.src = "https://www.adgully.com/img/800/68264_fl.png.jpg";
     assuer.id = "flipass";
 
-
     cartline.append(seller, replacee);
     cartline1.append(price, price2, price3);
     imgdiv.append(image);
@@ -121,48 +116,66 @@ function displaydata() {
     document.querySelector("#leftcart32").append(div);
   });
 }
-function toindex(){
-  window.location.href="index.html"
+function toindex() {
+  window.location.href = "index.html";
 }
-let arr=JSON.parse(localStorage.getItem("adform")) || [];
+let arr = JSON.parse(localStorage.getItem("adform")) || [];
 document.querySelector("form").addEventListener("submit", formdata);
-function formdata(){
-  let i1=document.getElementById("i1").value;
-  let i2=document.getElementById("i2").value;
-  let i3=document.getElementById("i3").value;
-  let i4=document.getElementById("i4").value;
-  let i5=document.getElementById("i5").value;
-  let i6=document.getElementById("i6").value;
-  let i7=document.getElementById("i7").value;
-  let i8=document.getElementById("i8").value;
-  let i9=document.getElementById("i9").value;
-  var obj={
-    i1:i1,
-    i2:i2,
-    i3:i3,
-    i4:i4,
-    i5:i5,
-    i6:i6,
-    i7:i7,
-    i8:i8,
-    i9:i9
-  }
+function formdata() {
+  let i1 = document.getElementById("i1").value;
+  let i2 = document.getElementById("i2").value;
+  let i3 = document.getElementById("i3").value;
+  let i4 = document.getElementById("i4").value;
+  let i5 = document.getElementById("i5").value;
+  let i6 = document.getElementById("i6").value;
+  let i7 = document.getElementById("i7").value;
+  let i8 = document.getElementById("i8").value;
+  let i9 = document.getElementById("i9").value;
+  var obj = {
+    i1: i1,
+    i2: i2,
+    i3: i3,
+    i4: i4,
+    i5: i5,
+    i6: i6,
+    i7: i7,
+    i8: i8,
+    i9: i9,
+  };
   arr.push(obj);
   localStorage.setItem("adform", JSON.stringify(arr));
 }
-function displayBlock(id){
-  let div = document.querySelectorAll(".radio-group > .pay")
+function displayBlock(id) {
+  let div = document.querySelectorAll(".radio-group > .pay");
   div.forEach((each_div) => {
     each_div.style.display = "none";
-  })
+  });
   let payopt = document.getElementById(id);
   payopt.style.display = "block";
 }
 
-function onClick(){
+function onClick() {
   document.location.href = `otp.html`;
 }
-    
-function onClickCo(){
+
+function onClickCo() {
   document.location.href = `confirmation_loading.html#price=${amount}`;
 }
+
+let allButtons = document.querySelectorAll(".amount");
+for (let i = 0; i < allButtons.length; i++) {
+  allButtons[i].innerText = localStorage.getItem("total_price");
+}
+
+console.log(localStorage.getItem("total_price"));
+
+let name = localStorage.getItem("users");
+
+let users = JSON.parse(localStorage.getItem("users"));
+
+users.forEach((userData) => {
+  document.querySelector("#leftcart14 > p:first-child").innerText =
+    userData.name;
+  document.querySelector("#leftcart14 > p:nth-child(2)").innerText =
+    userData.number;
+});

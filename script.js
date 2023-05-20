@@ -1,6 +1,8 @@
 
 import { imageSlider } from "./utilities/slider.js";
 
+// import navbar from "./flipkart-clone-navlog/flipkart-clone-navlog/navbar.js"
+// document.querySelector("#navbar").innerHTML = navbar();
 
 /*******************image Slider********************* */
 let imageSliderListEl = document.querySelector(".imageSliderList");

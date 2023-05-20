@@ -73,6 +73,7 @@ nav{
     position: sticky;
  position: relative;
 display: flex;
+top:0%;
 justify-content: space-between;
 align-items: center;
 max-width: 800px;
@@ -144,9 +145,9 @@ box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2),5px 5px 5px rgba(0, 0, 0,0. 2);
 .login_menu{
     position: absolute;
     top:34px;
-    height: 325px;
+    height: 330px;
     width: 100%;
-    width: 230px;
+    width: 270px;
     background-color: transparent;
     margin-left: -40px;
     transform: translateX(-25%);
@@ -189,17 +190,20 @@ box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2),5px 5px 5px rgba(0, 0, 0,0. 2);
 }
 .login_menu_top{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin-bottom: 15px;
     font-weight: 550;
+    font-size:14px;
+}
+.login_menu_top p{
+    font-weight: bolder;
 }
 .login_menu_top a:hover{
     text-decoration: underline;
 }
 .menu_nav_link :hover{
     background-color: #ad9d9d  15%;
-    opacity: 0.7;
-    
+    opacity: 0.7;   
 }
 /* become a seller page */
 .seller-page{
@@ -229,8 +233,8 @@ box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2),5px 5px 5px rgba(0, 0, 0,0. 2);
 }
 .more_menu{
     position: absolute;
-    height:220px;
-    width:250px;
+    height:250px;
+    width:290px;
     content: "";
     background-color: transparent;
     transform: translateX(-35%);  
@@ -285,7 +289,10 @@ box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2),5px 5px 5px rgba(0, 0, 0,0. 2);
     margin-top: -30px;
 }
 .cart-page p {
-    padding: 0px 5px;
+   margin-left: 10px ;
+}
+.fa-cart-shopping{
+    margin-left: 20px;
 }
 /* Featured Products  Header Part */
 .feature-products-list{
@@ -297,28 +304,32 @@ box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2),5px 5px 5px rgba(0, 0, 0,0. 2);
     justify-content: space-around;
 }
 .feature-products{
-    height: 160px; 
+    height: 150px; 
     box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 15px;
     display: flex;
-    flex-direction: column;
+     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    text-align: center;
+   text-align: center;
 }
 .feature-products{
     height: 110px;
     box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 15px;
 }
 .featureimg{
-   width: 70px;
+   width: 60px;
+}
+#beauty_img{
+    margin-left: 30px;
 }
 .featureimg img{
 width: 100%;
 }
 .featur-name{
-    font-size: 14px;
-    font-weight: bolder;
-    color: rgb(68, 64, 64);
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: 700;
+    color: rgb(34, 33, 33);
 }
 .feature-icon {
     transition: transform 0.3s ease-in-out;

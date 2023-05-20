@@ -9,6 +9,13 @@ let searchvalue = document.getElementById("seach-input");
 let form = document.getElementById("search-form");
 let recent_Search = document.querySelector(".recent_Search");
 
+
+document.querySelector(".fa-solid fa-magnifying-glass").addEventListener("click", searchResultForSearchBar);
+console.log("query");
+function searchResultForSearchBar() {
+  let query = document.querySelector("#seach-input").value;
+  console.log(query);
+}
 let searchbox = ["fashion", "mobile"];
 
 form.addEventListener("submit", (event) => {

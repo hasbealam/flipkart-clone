@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="product_details.css" />
+    <link
+      rel="stylesheet"
+      href="./flipkart-clone-navlog/flipkart-clone-navlog/header.css"
+    />
+    <link
+      rel="icon"
+      href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="./flipkart-clone-navlog/flipkart-clone-navlog/footer.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./flipkart-clone-navlog/flipkart-clone-navlog/login.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./flipkart-clone-navlog/flipkart-clone-navlog/signup.css"
+    />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="product_deatails_parent_box">
+      <div id="product_details_container">
+        <div id="images_and_buttons">
+          <div>
+            <div id="product_images_container">
+              <div id="side_images">
+                <div>
+                  <img id="image1" src="" alt="image1" />
+                </div>
+                <div>
+                  <img id="image2" src="" alt="image2" />
+                </div>
+                <div>
+                  <img id="image3" src="" alt="image3" />
+                </div>
+              </div>
+              <div id="product_image"></div>
+            </div>
+            <div id="buy_now_add_to_cart">
+              <button>
+                <i class="fa-solid fa-cart-shopping"></i
+                ><span class="button_gap"> ADD TO CARD</span>
+              </button>
+              <button>
+                <i class="fa-solid fa-bolt"></i
+                ><span class="button_gap">BUY NOW</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="product_details">
+          <p id="brand_name"></p>
+          <p id="product_name"></p>
+          <p><span>Special price</span></p>
+          <div id="pricing">
+            <p id="discounted_price"></p>
+            <p id="original_price">₹1799</p>
+            <p id="discount_percentage"></p>
+          </div>
+          <div id="ratings">
+            <div>
+              <span id="rating_in_points"></span>
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg=="
+                alt="star_image"
+              />
+            </div>
+            <p id="number_of_reviews"></p>
+            <img
+              src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png"
+              alt="flipkart_assured_logo"
+            />
+          </div>
+
+          <div id="offers">
+            <p>Available offers</p>
+            <div class="offer">
+              <img
+                src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="offer_logo"
+              />
+              <p>
+                <span> Special Price </span> Get extra 20% off (price inclusive
+                of cashback/coupon)
+              </p>
+              <span class="blue">T&C</span>
+            </div>
+            <div class="offer">
+              <img
+                src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="offer_logo"
+              />
+              <p>
+                <span>Bank Offer</span> 10% off on ICICI Bank Credit Cards, up
+                to ₹300. On orders of ₹1750 and above
+              </p>
+              <span class="blue">T&C</span>
+            </div>
+            <div class="offer">
+              <img
+                src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="offer_logo"
+              />
+              <p>
+                <span>Bank Offer</span> 10% off on ICICI Bank Debit Cards, up to
+                ₹300. On orders of ₹1750 and above
+              </p>
+              <span class="blue">T&C</span>
+            </div>
+            <div class="offer">
+              <img
+                src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="offer_logo"
+              />
+              <p>
+                <span>Bank Offer</span> Flat ₹100 Instant Cashback on Paytm
+                Wallet. Min Order Value ₹1000. Valid once per Paytm account
+              </p>
+              <span class="blue">T&C</span>
+            </div>
+          </div>
+          <span id="hidden_offer">+5 more offers</span>
+          <div id="hidden_offers">
+            <div class="offer">
+              <img
+                src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="offer_logo"
+              />
+              <p>Buy this Product and Get Extra ₹500 Off on Bikes & Scooters</p>
+              <span class="blue">T&C</span>
+            </div>
+            <div class="offer">
+              <img
+                src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="offer_logo"
+              />
+              <p>
+                <span>Partner Offer</span> Sign up for Flipkart Pay Later and
+                get Flipkart Gift Card worth up to ₹1000*
+              </p>
+              <span class="blue">Know More</span>
+            </div>
+
+            <div class="offer">
+              <img
+                src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="offer_logo"
+              />
+              <p>
+                <span>Partner Offer</span> Shop With Flipkart Pay Later & stand
+                a chance to win ₹5,000 Gift Card* during the offer period
+              </p>
+              <span class="blue">Know More</span>
+            </div>
+            <div class="offer">
+              <img
+                src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="offer_logo"
+              />
+              <p>
+                <span>Partner Offer</span> Purchase now & get a surprise
+                cashback coupon till November 2023
+              </p>
+              <span class="blue">Know More</span>
+            </div>
+          </div>
+          <div id="deliver_details">
+            <div>
+              <div>
+                <img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48ZWxsaXBzZSBjeD0iOSIgY3k9IjE0LjQ3OCIgZmlsbD0iI0ZGRTExQiIgcng9IjkiIHJ5PSIzLjUyMiIvPjxwYXRoIGZpbGw9IiMyODc0RjAiIGQ9Ik04LjYwOSA3LjAxYy0xLjA4IDAtMS45NTctLjgyNi0xLjk1Ny0xLjg0NSAwLS40ODkuMjA2LS45NTguNTczLTEuMzA0YTIuMDIgMi4wMiAwIDAgMSAxLjM4NC0uNTRjMS4wOCAwIDEuOTU2LjgyNSAxLjk1NiAxLjg0NCAwIC40OS0uMjA2Ljk1OS0uNTczIDEuMzA1cy0uODY0LjU0LTEuMzgzLjU0ek0zLjEzIDUuMTY1YzAgMy44NzQgNS40NzkgOC45MjIgNS40NzkgOC45MjJzNS40NzgtNS4wNDggNS40NzgtOC45MjJDMTQuMDg3IDIuMzEzIDExLjYzNCAwIDguNjA5IDAgNS41ODMgMCAzLjEzIDIuMzEzIDMuMTMgNS4xNjV6Ii8+PC9nPjwvc3ZnPg=="
+                  alt="location_logo"
+                />
+                <span class="grey_class">Deliver to</span>
+              </div>
+              <div>
+                <input type="text" placeholder="Enter delivery pincode" />
+                <button>Check</button>
+              </div>
+            </div>
+            <div>
+              <p class="grey_class">Services</p>
+              <p class="black_class">Cash on Delivery available</p>
+            </div>
+          </div>
+          <div>
+            <p class="black_bold">
+              Delivery by 13 Mar, Monday <span class="grey_class"> |</span>
+              <span class="green">Free</span
+              ><span class="grey_class stripedoff"> ₹40</span>
+            </p>
+            <p class="small_black">if ordered before 11:59 PM</p>
+            <p><span class="blue">View Deails</span></p>
+          </div>
+          <div id="grid_container">
+            <div class="grey_class">Color</div>
+            <div>
+              <div class="color_image">
+                <img
+                  src="https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/n/i/h/s-r-stbrg-stoneberg-original-imaggjymvpnxz6re.jpeg?q=70"
+                />
+              </div>
+            </div>
+            <div class="grey_class">Size</div>
+            <div class="size">
+              <div class="black_bold">S</div>
+              <div class="black_bold">M</div>
+              <div class="black_bold">L</div>
+              <div class="black_bold">XL</div>
+            </div>
+
+            <div class="grey_class">Specification</div>
+            <div class="black_class">
+              <span class="black_bold">Fits:</span> Slim |
+              <span class="black_bold"> Size:</span> M
+            </div>
+            <div class="grey_class">Seller</div>
+            <div>
+              <span class="blue_1"> EmartRetail</span>
+              <ul>
+                <li id="my_unordered_list">10 Days Return Policy</li>
+              </ul>
+              <p><span class="blue_1">See other sellers</span></p>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://rukminim1.flixcart.com/lockin/400/96/images/CCO__PP_2019-07-14.png?q=50"
+              alt="super_coin_logo"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- frequently_bought_together_container -->
+      <div id="frequently_bought_together_container">
+        <p class="bold_black">Frequently bought together</p>
+        <div id="frequently_bought_together_content">
+          <div id="fbt_products"></div>
+          <div id="fbt_price_summary_div">
+            <div>
+              <p id="ftb_price_summary">Price Summary</p>
+              <div>
+                <p>Main Product selected</p>
+                <p id="ftb_primary_product_price"></p>
+              </div>
+              <div>
+                <p>2 Addons selected</p>
+                <p id="ftb_addons_product_price"></p>
+              </div>
+              <div>
+                <p id="fbt_border_line">Total</p>
+                <p id="ftb_total_product_price"></p>
+              </div>
+            </div>
+            <div>
+              <button id="ftb_button">ADD 3 ITEMS TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="tending_styles_image">
+        <img
+          src="https://rukminim1.flixcart.com/www/2000/2000/promos/01/12/2018/8aa01ab4-de88-4a46-9d93-5c7f3ebac2df.png?q=50"
+          alt="tending_styles_image"
+        />
+      </div>
+      <div id="whole_container">
+        <p class="bold_black">You might be interested in</p>
+        <div id="suggestion_cards">
+          <div>
+            <img
+              src="https://rukminim1.flixcart.com/image/400/400/xif0q/sock/a/k/o/free-6-or-45-okharvi-original-imagkqdxkpygkfhb.jpeg?q=90"
+              alt="socks_image"
+            />
+            <div>
+              <p class="bold_black">Men's And Women's Socks</p>
+              <p class="bold_grey">Min. 50% Off</p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://rukminim1.flixcart.com/image/400/400/cufflink-tie-pin/r/z/j/gs-plain-bsquare-tie-pin-set-gs-tp-combo-original-imaenjhzn7x7phg7.jpeg?q=90"
+              alt="cufflinks_image"
+            />
+            <div>
+              <p class="bold_black">Men's Neck Ties And Cufflinks</p>
+              <p class="bold_grey">Min. 50% Off</p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://rukminim1.flixcart.com/image/400/400/xif0q/blazer/u/7/0/l-unique-black-darbar-in-original-imag4yuv4snzqahy-bb.jpeg?q=90"
+              alt="blazers_image"
+            />
+            <div>
+              <p class="bold_black">Men's Readymade Blazers</p>
+              <p class="bold_grey">Min. 50% Off</p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+<script type="module" src="product_details.js"></script>
+<script
+  src="https://kit.fontawesome.com/8f9928a0eb.js"
+  crossorigin="anonymous"
+></script>
+
+<!-- <script type="module" src="./flipkart-clone-navlog/flipkart-clone-navlog/header.js"></script> -->

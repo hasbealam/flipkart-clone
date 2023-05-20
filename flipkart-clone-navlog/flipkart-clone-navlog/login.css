@@ -79,7 +79,7 @@ body {
     margin: auto;
     margin-top: 110px;
 }
-#signbtns{
+#signbtn{
     color: #2874f0;
     text-decoration: none;
     cursor: pointer;
@@ -129,7 +129,6 @@ a{
     font-size: 18px;
     letter-spacing: 3.5px;
  }
-
  #otp-required:focus{
     border-bottom:6px  dashed #2874f0 ;
 }
@@ -153,4 +152,3 @@ a{
     margin-top: 10px;
     text-align: center;
  }
- 

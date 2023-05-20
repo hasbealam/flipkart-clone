@@ -1,16 +1,13 @@
 
-
-
-
-
-
 #mainFooterDiv{
+    bottom: 0%;
+    height: 300px;
     display: flex;
     background-color: rgb(23,35,55);
     color: white;
     font-family: Roboto,Arial,sans-serif;
     font-size: 15px;
-
+    padding-top: 35px;
 }
 
 #secondFooterDivLeft{
@@ -37,27 +34,28 @@ margin: 0 20px;
 #firstChildOfEachDiv{
 color: rgb(135,135,135);
 }
+#firstChildOfEachDiv ~ p{
+     padding-bottom: 8px;
 
+}
 #secondFooterDivLeft p{
     margin: 7px 0;
     cursor: pointer;
-
 }
 
 #firstChildOfEachDiv{
     /* margin: 10px 0; */
     cursor: none;
+    /* padding-top: 20px; */
 }
 
 #secondFooterDivLeft p:hover{
-    color: blue;
+    text-decoration: underline;
 }
 
 #contectDetails{
-color: blue;
+color:#2874f0;
 }
-
-
 
 .footer {
     border: 1px solid;
@@ -80,10 +78,11 @@ color: blue;
     cursor: pointer;
     font-size: 15px;
   }
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+#firstChildOfEachDiv ~ p {
+    font-size: 10px;
 }
