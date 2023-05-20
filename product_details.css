@@ -15,7 +15,7 @@ body {
 }
 #images_and_buttons {
   /* border: 2px solid black; */
-  margin-right: 10px;
+  margin-right: 40px;
 }
 #product_deatails_parent_box {
   background-color: rgb(241, 243, 246);
@@ -32,6 +32,7 @@ body {
   /* border: 2px solid black; */
   background-color: white;
   display: flex;
+  padding: 20px;
 }
 .button_gap {
   margin-left: 8px;
@@ -348,6 +349,24 @@ body {
   font-size: 14px;
 }
 
+/* product_details_hidden_div */
+
+#product_details_hidden_div_parent {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  padding: 32px 24px 32px 24px;
+  font-weight: 500;
+  cursor: pointer;
+  border-top: 2px solid #c5b9b9;;
+  border-bottom: 2px solid #c5b9b9;;
+}
+
+#product_details_hidden_div {
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 /* suggestion card */
 #suggestion_cards {
   display: grid;
@@ -397,7 +416,7 @@ body {
 /* frequently_bought_together_container */
 #frequently_bought_together_container {
   background-color: white;
-  margin-bottom: 30px;
+  margin: 10px 0px;
   padding: 30px;
 }
 
@@ -503,9 +522,6 @@ body {
   padding-top: 30px;
 }
 
-#fbt_border_line {
-  
-}
 #ftb_button {
   border: none;
   color: white;
@@ -513,4 +529,13 @@ body {
   height: 55px;
   background-color: rgb(255, 159, 0);
   border-radius: 2px;
+}
+
+/* tending_styles_image */
+#tending_styles_image {
+  margin-bottom: -15px;
+}
+
+#tending_styles_image > img {
+  width: 100%;
 }
