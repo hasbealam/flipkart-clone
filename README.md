@@ -1,6 +1,6 @@
 <h1>Flipkart.com Clone</h1>
 
-Live project link:- https://flipkart-clone-eight-pi.vercel.app/
+Live project link:- https://soft-rolypoly-d1ba4d.netlify.app/
 
 Tech Stack used:-
 1. HTML
